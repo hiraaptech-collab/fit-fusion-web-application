@@ -19,7 +19,8 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/* \
     && mkdir -p /etc/nginx/templates
 
-COPY docker/php-production.ini /usr/local/etc/php/conf.d/zz-fitfusion.ini
+COPY docker/php-production.ini /usr/local/etc/php/conf.d/zz-fitfusion.ini 
+COPY docker/ca.pem /etc/ssl/certs/aiven-ca.pem
 WORKDIR /var/www/html
 COPY laravel/ ./
 COPY --from=vendor /build/vendor ./vendor
