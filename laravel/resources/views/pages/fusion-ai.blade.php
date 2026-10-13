@@ -1,0 +1,139 @@
+@extends('layouts.public')
+
+@section('metadata')
+@if(auth()->check() && auth()->user()->role === 'client')<meta name="fitfusion-history-endpoint" content="{{ route('client.ai.send') }}">@endif
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fusion-AI Assistant | FitFusion Ã¢â‚¬â€œ Premium Fitness & Wellness</title>
+    <meta name="description" content="Chat with Fusion-AI, FitFusion's intelligent fitness assistant. Get instant answers on workouts, diet plans, BMI, and wellness goals.">
+    <meta name="keywords" content="FitFusion, Fusion-AI, AI Fitness Assistant, Chatbot, Workout Advice, Nutrition Advice, Wellness Chat">
+    <meta name="author" content="FitFusion">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://fitfusion.com/fusion-ai.html">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Fusion-AI Assistant | FitFusion Ã¢â‚¬â€œ Premium Fitness & Wellness">
+    <meta property="og:description" content="Chat with Fusion-AI, FitFusion's intelligent fitness assistant. Get instant answers on workouts, diet plans, and wellness.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fitfusion.com/fusion-ai.html">
+    <meta property="og:site_name" content="FitFusion">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fusion-AI Assistant | FitFusion Ã¢â‚¬â€œ Premium Fitness & Wellness">
+    <meta name="twitter:description" content="Chat with Fusion-AI, FitFusion's intelligent fitness assistant.">
+@endsection
+
+@section('content')
+
+<!-- NAVBAR (Fetched from JSON) -->
+<div id="my-navbar" role="navigation" aria-label="Main navigation"></div>
+
+<!-- PAGE HERO -->
+<section class="page-hero" id="fusion-hero" aria-label="Fusion-AI assistant hero">
+    <div class="container">
+        <span class="section-tag" data-aos="fade-up"><i class="bi bi-robot"></i> Intelligent Assistant</span>
+        <h1 class="page-hero-title" data-aos="fade-up" data-aos-delay="100">
+            Meet <span>Fusion-AI</span>
+        </h1>
+        <p class="page-hero-text" data-aos="fade-up" data-aos-delay="200">
+            Your personal fitness and wellness coach. Ask about workouts, nutrition, BMI, recovery,
+            or building healthy habits Ã¢â‚¬â€ get instant, expert guidance.
+        </p>
+    </div>
+</section>
+
+@if(auth()->check() && auth()->user()->role === 'client')
+<div class="container my-3"><label class="d-flex align-items-center gap-2"><input type="checkbox" id="historyConsent"> Save this conversation in my personal history.</label><a href="{{ route('client.ai') }}">View my saved conversations</a></div>
+@endif
+<!-- FUSION-AI CHAT -->
+<section class="fusion-ai-section" id="fusion-chat" aria-label="Fusion-AI chat interface">
+@guest<div class="container"><p class="text-center">Guests receive local fitness guidance. <a href="{{ route('login') }}">Sign in</a> for Groq-powered replies.</p></div>@endguest
+    <div class="container">
+        <div class="fusion-ai-container" data-aos="fade-up">
+            <div class="fusion-ai-header">
+                <div class="fusion-ai-header-left">
+                    <div class="ai-orb"><i class="bi bi-robot"></i></div>
+                    <div class="ai-title-group">
+                        <h4>Fusion-AI <span class="ai-status-dot"></span></h4>
+                        <span>Online &amp; ready to help</span>
+                    </div>
+                </div>
+                <button class="btn-clear-chat" id="clearChatBtn" type="button" aria-label="Clear chat history">
+                    <i class="bi bi-trash3"></i> Clear Chat
+                </button>
+            </div>
+
+            <div class="fusion-ai-messages" id="chatMessages" aria-live="polite" aria-label="Chat messages">
+                <div class="fusion-ai-welcome" id="chatWelcome" aria-label="Welcome message">
+                    <div class="welcome-icon"><i class="bi bi-robot"></i></div>
+                    <h3>Hi, I'm Fusion-AI!</h3>
+                    <p>I can help you with workout plans, diet guidance, BMI questions, and expert wellness tips. What's your fitness goal today?</p>
+                    <div class="suggested-prompts">
+                        <button class="suggested-prompt" type="button" data-prompt="Create a beginner workout plan for me">
+                            <i class="bi bi-activity"></i> Beginner Workout Plan
+                        </button>
+                        <button class="suggested-prompt" type="button" data-prompt="Give me a chest workout">
+                            <i class="bi bi-bezier2"></i> Chest Workout
+                        </button>
+                        <button class="suggested-prompt" type="button" data-prompt="Explain BMI to me simply">
+                            <i class="bi bi-calculator"></i> Explain BMI
+                        </button>
+                        <button class="suggested-prompt" type="button" data-prompt="Suggest a plan to lose weight healthily">
+                            <i class="bi bi-egg-fried"></i> Weight Loss Plan
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fusion-ai-input-area">
+                <textarea class="fusion-ai-input" id="chatInput" rows="1"
+                          placeholder="Ask me anything about fitness, diet, or wellness..."
+                          aria-label="Type your message to Fusion-AI"></textarea>
+                <button class="btn-send" id="sendBtn" type="button" aria-label="Send message" disabled>
+                    <i class="bi bi-send-fill"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- DISCLAIMER -->
+<section class="ai-disclaimer-section" id="fusion-disclaimer" aria-label="AI disclaimer">
+    <div class="container">
+        <div class="ai-disclaimer-card" data-aos="fade-up">
+            <i class="bi bi-info-circle-fill"></i>
+            <p>
+                Fusion-AI provides general fitness and nutrition information for educational purposes only.
+                It is not a substitute for professional medical advice. Always consult a qualified
+                healthcare provider before starting any new exercise or diet program.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final-cta-section" id="fusion-cta" aria-label="Call to action">
+    <div class="container">
+        <div data-aos="fade-up">
+            <h2>Want the Full FitFusion Experience?</h2>
+            <p>Pair smart advice with structured diet plans and expert workout guides.</p>
+            <div class="final-cta-buttons">
+                <a href="dietplans.html" class="btn-cta-dark"><i class="bi bi-egg-fried"></i> Diet Plans</a>
+                <a href="workouts.html" class="btn-cta-light"><i class="bi bi-dumbbell-fill"></i> Workouts</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER (Fetched from JSON) -->
+<div id="my-footer" role="contentinfo" aria-label="Site footer"></div>
+
+<!-- Back to Top -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="bi bi-arrow-up"></i>
+</button>
+@endsection
+
+@section('page-scripts')
+<script src="{{ asset('javascript/fusion-ai.js') }}"></script>
+@endsection
+
+

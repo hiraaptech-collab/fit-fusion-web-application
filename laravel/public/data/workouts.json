@@ -1,0 +1,117 @@
+{
+  "categories": [
+    {
+      "id": "beginner",
+      "title": "Beginner",
+      "icon": "bi bi-flag-fill",
+      "description": "Foundational, low-intensity exercises to build confidence and strength safely.",
+      "exercises": [
+        { "name": "Wall Push-Ups", "sets": "3", "reps": "15", "difficulty": "Beginner", "calories": "25-35", "muscle": "Chest, Arms", "tips": "Great starting point before floor push-ups.", "image": "https://images.unsplash.com/photo-1580086319619-3ed498161c77?w=400&q=80" },
+        { "name": "Push-Ups", "sets": "4", "reps": "15-20", "difficulty": "Beginner", "calories": "40-60", "muscle": "Chest, Triceps", "tips": "Keep body in straight line from head to heels.", "image": "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?w=400&q=80" },
+        { "name": "Chair Squats", "sets": "3", "reps": "12", "difficulty": "Beginner", "calories": "30-45", "muscle": "Legs", "tips": "Use a chair for depth reference and safety.", "image": "https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb?w=400&q=80" },
+        { "name": "Marching in Place", "sets": "3", "reps": "1 min", "difficulty": "Beginner", "calories": "30-40", "muscle": "Cardiovascular", "tips": "Lift knees high and swing arms naturally.", "image": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=400&q=80" },
+        { "name": "Bodyweight Squats", "sets": "4", "reps": "20", "difficulty": "Beginner", "calories": "50-70", "muscle": "Legs, Glutes", "tips": "Keep knees tracking over toes. Go as deep as comfortable.", "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&q=80" },
+        { "name": "Plank", "sets": "3", "reps": "45 sec", "difficulty": "Beginner", "calories": "20-30", "muscle": "Core", "tips": "Engage glutes and avoid sagging hips.", "image": "https://images.unsplash.com/photo-1550345332-09e3ac987658?w=400&q=80" },
+        { "name": "Glute Bridges", "sets": "4", "reps": "15", "difficulty": "Beginner", "calories": "35-50", "muscle": "Glutes, Hamstrings", "tips": "Squeeze glutes at the top for 2 seconds.", "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&q=80" },
+        { "name": "Seated Cable Row", "sets": "4", "reps": "10-12", "difficulty": "Beginner", "calories": "45-60", "muscle": "Mid Back", "tips": "Pull handle to belly button and squeeze lats.", "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400&q=80" },
+        { "name": "Side Lunges", "sets": "3", "reps": "12 each", "difficulty": "Beginner", "calories": "40-55", "muscle": "Inner Thighs, Glutes", "tips": "Keep chest up and weight in the heel of the bent leg.", "image": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=400&q=80" },
+        { "name": "Crunches", "sets": "4", "reps": "20", "difficulty": "Beginner", "calories": "25-40", "muscle": "Upper Abs", "tips": "Do not pull on your neck; lift with your abs.", "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&q=80" }
+      ]
+    },
+    {
+      "id": "intermediate",
+      "title": "Intermediate",
+      "icon": "bi bi-bar-chart-fill",
+      "description": "Moderate intensity movements that build endurance, stability, and control.",
+      "exercises": [
+        { "name": "Mountain Climbers", "sets": "4", "reps": "20 each", "difficulty": "Intermediate", "calories": "100-120", "muscle": "Core, Legs", "tips": "Maintain a flat back and drive knees toward chest.", "image": "https://images.unsplash.com/photo-1548690312-e3b507d8c110?w=400&q=80" },
+        { "name": "Jump Rope", "sets": "5", "reps": "2 min", "difficulty": "Intermediate", "calories": "150-200", "muscle": "Full Body", "tips": "Stay on balls of feet and keep elbows close to body.", "image": "https://images.unsplash.com/photo-1521805103424-d8f8430e8933?w=400&q=80" },
+        { "name": "Battle Ropes", "sets": "4", "reps": "30 sec", "difficulty": "Intermediate", "calories": "80-110", "muscle": "Arms, Core", "tips": "Generate power from hips and maintain athletic stance.", "image": "https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?w=400&q=80" },
+        { "name": "Hip Thrusts", "sets": "4", "reps": "12", "difficulty": "Intermediate", "calories": "45-60", "muscle": "Glutes", "tips": "Use a bench and barbell for progressive overload.", "image": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=400&q=80" },
+        { "name": "Russian Twists", "sets": "3", "reps": "20 each", "difficulty": "Intermediate", "calories": "35-50", "muscle": "Obliques", "tips": "Keep feet elevated for added difficulty.", "image": "https://images.unsplash.com/photo-1550345332-09e3ac987658?w=400&q=80" },
+        { "name": "Tricep Dips", "sets": "3", "reps": "12-15", "difficulty": "Intermediate", "calories": "35-50", "muscle": "Triceps, Chest", "tips": "Keep elbows pointing backward, not flared out.", "image": "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=400&q=80" },
+        { "name": "Incline Dumbbell Fly", "sets": "3", "reps": "12", "difficulty": "Intermediate", "calories": "40-55", "muscle": "Upper Chest", "tips": "Slight bend in elbows; feel the stretch at bottom.", "image": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=400&q=80" },
+        { "name": "Cable Flyes", "sets": "3", "reps": "12-15", "difficulty": "Intermediate", "calories": "40-55", "muscle": "Chest", "tips": "Slight bend in elbows throughout the movement.", "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400&q=80" },
+        { "name": "Lat Pulldowns", "sets": "4", "reps": "10-12", "difficulty": "Beginner", "calories": "45-60", "muscle": "Lats, Back", "tips": "Pull bar to upper chest and squeeze shoulder blades together.", "image": "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=400&q=80" }
+      ]
+    },
+    {
+      "id": "advanced",
+      "title": "Advanced",
+      "icon": "bi bi-trophy-fill",
+      "description": "High-intensity, demanding movements for experienced athletes.",
+      "exercises": [
+        { "name": "Burpees", "sets": "3", "reps": "12", "difficulty": "Advanced", "calories": "120-150", "muscle": "Full Body", "tips": "Modify by stepping back instead of jumping if needed.", "image": "https://images.unsplash.com/photo-1576678927484-cc907957088c?w=400&q=80" },
+        { "name": "Deadlifts", "sets": "4", "reps": "6-8", "difficulty": "Advanced", "calories": "80-100", "muscle": "Back, Hamstrings", "tips": "Keep bar close to body and engage core before lifting.", "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&q=80" },
+        { "name": "Sprint Intervals", "sets": "8", "reps": "30 sec", "difficulty": "Advanced", "calories": "200-300", "muscle": "Full Body", "tips": "Alternate 30 sec sprint with 30 sec rest.", "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=400&q=80" },
+        { "name": "Box Jumps", "sets": "4", "reps": "12", "difficulty": "Advanced", "calories": "100-130", "muscle": "Legs, Explosive Power", "tips": "Land softly with bent knees. Step down between reps.", "image": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=400&q=80" },
+        { "name": "Muscle-Ups", "sets": "4", "reps": "5-8", "difficulty": "Advanced", "calories": "60-80", "muscle": "Back, Chest, Arms", "tips": "Master pull-ups and dips separately first.", "image": "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=400&q=80" },
+        { "name": "Pistol Squats", "sets": "3", "reps": "8 each", "difficulty": "Advanced", "calories": "50-70", "muscle": "Legs, Balance", "tips": "Use a support until you build single-leg strength.", "image": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=400&q=80" },
+        { "name": "Handstand Push-Ups", "sets": "3", "reps": "6-10", "difficulty": "Advanced", "calories": "55-75", "muscle": "Shoulders, Core", "tips": "Practice against a wall before freestanding.", "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400&q=80" },
+        { "name": "Pull-Ups", "sets": "4", "reps": "8-12", "difficulty": "Intermediate", "calories": "50-70", "muscle": "Back, Biceps", "tips": "Use assisted machine if needed to build strength.", "image": "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=400&q=80" },
+        { "name": "Leg Raises", "sets": "3", "reps": "15", "difficulty": "Intermediate", "calories": "30-45", "muscle": "Lower Abs", "tips": "Press lower back into floor throughout.", "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&q=80" }
+      ]
+    },
+    {
+      "id": "strength",
+      "title": "Strength",
+      "icon": "bi bi-shield-fill",
+      "description": "Weighted compound lifts to build muscle and raw strength.",
+      "exercises": [
+        { "name": "Barbell Squats", "sets": "4", "reps": "8-10", "difficulty": "Intermediate", "calories": "60-80", "muscle": "Legs, Glutes", "tips": "Go below parallel and keep chest up throughout.", "image": "https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb?w=400&q=80" },
+        { "name": "Flat Bench Press", "sets": "4", "reps": "8-10", "difficulty": "Intermediate", "calories": "50-70", "muscle": "Chest", "tips": "Arch back slightly and drive feet into floor.", "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400&q=80" },
+        { "name": "Incline Dumbbell Press", "sets": "4", "reps": "10-12", "difficulty": "Intermediate", "calories": "55-75", "muscle": "Upper Chest", "tips": "Set bench to 30-45 degrees for optimal upper chest activation.", "image": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=400&q=80" },
+        { "name": "Overhead Press", "sets": "4", "reps": "8-10", "difficulty": "Intermediate", "calories": "50-65", "muscle": "Shoulders", "tips": "Brace core and avoid excessive back arch.", "image": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=400&q=80" },
+        { "name": "Barbell Rows", "sets": "4", "reps": "8-10", "difficulty": "Intermediate", "calories": "55-70", "muscle": "Back, Biceps", "tips": "Hinge at hips and pull bar to lower chest.", "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&q=80" },
+        { "name": "Romanian Deadlift", "sets": "3", "reps": "10-12", "difficulty": "Intermediate", "calories": "60-75", "muscle": "Hamstrings, Glutes", "tips": "Feel stretch in hamstrings; keep bar close to legs.", "image": "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=400&q=80" },
+        { "name": "Barbell Back Squat", "sets": "4", "reps": "8-10", "difficulty": "Intermediate", "calories": "70-90", "muscle": "Quads, Glutes", "tips": "Break at hips and knees simultaneously.", "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&q=80" },
+        { "name": "Dumbbell Shoulder Press", "sets": "4", "reps": "10", "difficulty": "Intermediate", "calories": "45-60", "muscle": "Front & Side Delts", "tips": "Press straight up without excessive back lean.", "image": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=400&q=80" },
+        { "name": "Smith Machine Squat", "sets": "4", "reps": "10-12", "difficulty": "Beginner", "calories": "65-85", "muscle": "Quads, Glutes", "tips": "Position feet slightly forward for quad emphasis.", "image": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=400&q=80" },
+        { "name": "Face Pulls", "sets": "3", "reps": "15", "difficulty": "Beginner", "calories": "30-40", "muscle": "Rear Delts, Upper Back", "tips": "Pull rope to face level; externally rotate at end.", "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400&q=80" }
+      ]
+    },
+    {
+      "id": "cardio",
+      "title": "Cardio",
+      "icon": "bi bi-heart-pulse-fill",
+      "description": "Aerobic conditioning to boost endurance, burn calories, and protect your heart.",
+      "exercises": [
+        { "name": "Treadmill Running", "sets": "1", "reps": "30 min", "difficulty": "Beginner", "calories": "250-350", "muscle": "Legs, Cardiovascular", "tips": "Start with a 5-minute warm-up walk before increasing speed.", "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=400&q=80" },
+        { "name": "Cycling", "sets": "1", "reps": "45 min", "difficulty": "Beginner", "calories": "300-400", "muscle": "Legs, Cardiovascular", "tips": "Adjust resistance for interval training benefits.", "image": "https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=400&q=80" },
+        { "name": "Jumping Jacks", "sets": "3", "reps": "30 sec", "difficulty": "Beginner", "calories": "80-100", "muscle": "Full Body", "tips": "Keep a steady pace and land softly on your feet.", "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=400&q=80" },
+        { "name": "Walking Lunges", "sets": "3", "reps": "12 each", "difficulty": "Beginner", "calories": "55-75", "muscle": "Quads, Glutes", "tips": "Take long strides; knee stays behind toes.", "image": "https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb?w=400&q=80" },
+        { "name": "Calf Raises", "sets": "4", "reps": "15-20", "difficulty": "Beginner", "calories": "25-35", "muscle": "Calves", "tips": "Full stretch at bottom, pause at top.", "image": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=400&q=80" },
+        { "name": "Leg Curl Machine", "sets": "3", "reps": "12-15", "difficulty": "Beginner", "calories": "35-50", "muscle": "Hamstrings", "tips": "Control the eccentric phase for maximum benefit.", "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&q=80" },
+        { "name": "Decline Push-Ups", "sets": "3", "reps": "15", "difficulty": "Beginner", "calories": "35-50", "muscle": "Lower Chest", "tips": "Feet elevated on bench for lower chest emphasis.", "image": "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?w=400&q=80" }
+      ]
+    },
+    {
+      "id": "arms-shoulders",
+      "title": "Arms & Shoulders",
+      "icon": "bi bi-hand-index-thumb-fill",
+      "description": "Isolation moves to sculpt biceps, triceps, and shoulders.",
+      "exercises": [
+        { "name": "Dumbbell Curls", "sets": "3", "reps": "12", "difficulty": "Beginner", "calories": "30-45", "muscle": "Biceps", "tips": "Avoid swinging; control both lifting and lowering.", "image": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=400&q=80" },
+        { "name": "Barbell Curls", "sets": "3", "reps": "10-12", "difficulty": "Beginner", "calories": "30-45", "muscle": "Biceps", "tips": "Keep elbows pinned to sides throughout.", "image": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=400&q=80" },
+        { "name": "Hammer Curls", "sets": "3", "reps": "12", "difficulty": "Beginner", "calories": "30-40", "muscle": "Brachialis, Forearms", "tips": "Neutral grip targets brachialis for arm thickness.", "image": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=400&q=80" },
+        { "name": "Skull Crushers", "sets": "3", "reps": "10-12", "difficulty": "Intermediate", "calories": "35-50", "muscle": "Triceps", "tips": "Lower bar to forehead; keep upper arms stationary.", "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400&q=80" },
+        { "name": "Lateral Raises", "sets": "3", "reps": "15", "difficulty": "Beginner", "calories": "30-40", "muscle": "Side Delts", "tips": "Lead with elbows, not hands. Use light weight.", "image": "https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb?w=400&q=80" },
+        { "name": "Front Raises", "sets": "3", "reps": "12", "difficulty": "Beginner", "calories": "25-35", "muscle": "Front Delts", "tips": "Alternate arms or use both simultaneously.", "image": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=400&q=80" }
+      ]
+    },
+    {
+      "id": "yoga-stretching",
+      "title": "Yoga & Stretching",
+      "icon": "bi bi-yin-yang",
+      "description": "Mobility, flexibility, and balance routines for recovery and mind-body wellness.",
+      "exercises": [
+        { "name": "Downward Dog", "sets": "1", "reps": "1 min", "difficulty": "Beginner", "calories": "15-25", "muscle": "Full Body", "tips": "Press heels toward floor; lengthen through spine.", "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=80" },
+        { "name": "Warrior II", "sets": "2", "reps": "30 sec each", "difficulty": "Beginner", "calories": "20-30", "muscle": "Legs, Hips", "tips": "Front knee over ankle; arms parallel to floor.", "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&q=80" },
+        { "name": "Tree Pose", "sets": "2", "reps": "30 sec each", "difficulty": "Beginner", "calories": "15-20", "muscle": "Balance, Core", "tips": "Focus on a fixed point to maintain balance.", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&q=80" },
+        { "name": "Hamstring Stretch", "sets": "2", "reps": "30 sec each", "difficulty": "Beginner", "calories": "10-15", "muscle": "Hamstrings", "tips": "Keep back straight; hinge at hips, not round spine.", "image": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=400&q=80" },
+        { "name": "Hip Flexor Stretch", "sets": "2", "reps": "30 sec each", "difficulty": "Beginner", "calories": "10-15", "muscle": "Hip Flexors", "tips": "Lunge position; tuck pelvis and lean forward gently.", "image": "https://images.unsplash.com/photo-1580086319619-3ed498161c77?w=400&q=80" },
+        { "name": "Cat-Cow Stretch", "sets": "2", "reps": "10 reps", "difficulty": "Beginner", "calories": "10-15", "muscle": "Spine, Core", "tips": "Sync movement with breath for maximum mobility.", "image": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=400&q=80" }
+      ]
+    }
+  ]
+}

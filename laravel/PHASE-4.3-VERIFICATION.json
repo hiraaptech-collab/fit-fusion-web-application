@@ -1,0 +1,442 @@
+{
+  "phase": "4.3",
+  "completedAt": "2026-10-09T21:45:47.328Z",
+  "backup": "C:/Users/pro saqi/Desktop/fit-fusion-phase4-3-backup-20261010-020217",
+  "provider": {
+    "name": "Groq",
+    "host": "api.groq.com",
+    "model": "openai/gpt-oss-20b"
+  },
+  "route": {
+    "method": "POST",
+    "url": "/api/chat",
+    "middleware": [
+      "web (session and CSRF)",
+      "throttle:fusion-ai (20 requests/minute/IP)"
+    ]
+  },
+  "security": {
+    "keyCopiedWithoutDisclosure": true,
+    "keyMatchesOriginal": true,
+    "exampleKeyBlank": true,
+    "credentialMatchesInPublicOrBlade": 0,
+    "credentialMatchesInLogs": 0,
+    "csrfMissingStatus": 419,
+    "csrfWrongStatus": 419,
+    "sslVerificationEnabled": true,
+    "redirectsDisabled": true,
+    "timeoutSeconds": 25,
+    "connectTimeoutSeconds": 5,
+    "clientTimeoutSeconds": 30
+  },
+  "preservation": {
+    "originalFiles": 699,
+    "originalChanges": [],
+    "preservedFrontendFiles": 50,
+    "frontendChanges": [],
+    "dependencyOrDatabaseChanges": [],
+    "databaseEnvironmentUnchanged": true,
+    "existingLaravelSourceChanges": [
+      {
+        "file": "laravel\\.env",
+        "status": "changed"
+      },
+      {
+        "file": "laravel\\.env.example",
+        "status": "changed"
+      },
+      {
+        "file": "laravel\\app\\Providers\\AppServiceProvider.php",
+        "status": "changed"
+      },
+      {
+        "file": "laravel\\bootstrap\\app.php",
+        "status": "changed"
+      },
+      {
+        "file": "laravel\\config\\services.php",
+        "status": "changed"
+      },
+      {
+        "file": "laravel\\public\\javascript\\fusion-ai.js",
+        "status": "changed"
+      },
+      {
+        "file": "laravel\\resources\\views\\layouts\\public.blade.php",
+        "status": "changed"
+      },
+      {
+        "file": "laravel\\routes\\web.php",
+        "status": "changed"
+      }
+    ]
+  },
+  "tests": {
+    "backend": {
+      "passed": 151,
+      "fallbackCases": 78,
+      "realTimeoutTest": true,
+      "checks": [
+        "Node fallback parity 0",
+        "Node fallback parity 1",
+        "Node fallback parity 2",
+        "Node fallback parity 3",
+        "Node fallback parity 4",
+        "Node fallback parity 5",
+        "Node fallback parity 6",
+        "Node fallback parity 7",
+        "Node fallback parity 8",
+        "Node fallback parity 9",
+        "Node fallback parity 10",
+        "Node fallback parity 11",
+        "Node fallback parity 12",
+        "Node fallback parity 13",
+        "Node fallback parity 14",
+        "Node fallback parity 15",
+        "Node fallback parity 16",
+        "Node fallback parity 17",
+        "Node fallback parity 18",
+        "Node fallback parity 19",
+        "Node fallback parity 20",
+        "Node fallback parity 21",
+        "Node fallback parity 22",
+        "Node fallback parity 23",
+        "Node fallback parity 24",
+        "Node fallback parity 25",
+        "Node fallback parity 26",
+        "Node fallback parity 27",
+        "Node fallback parity 28",
+        "Node fallback parity 29",
+        "Node fallback parity 30",
+        "Node fallback parity 31",
+        "Node fallback parity 32",
+        "Node fallback parity 33",
+        "Node fallback parity 34",
+        "Node fallback parity 35",
+        "Node fallback parity 36",
+        "Node fallback parity 37",
+        "Node fallback parity 38",
+        "Node fallback parity 39",
+        "Node fallback parity 40",
+        "Node fallback parity 41",
+        "Node fallback parity 42",
+        "Node fallback parity 43",
+        "Node fallback parity 44",
+        "Node fallback parity 45",
+        "Node fallback parity 46",
+        "Node fallback parity 47",
+        "Node fallback parity 48",
+        "Node fallback parity 49",
+        "Node fallback parity 50",
+        "Node fallback parity 51",
+        "Node fallback parity 52",
+        "Node fallback parity 53",
+        "Node fallback parity 54",
+        "Node fallback parity 55",
+        "Node fallback parity 56",
+        "Node fallback parity 57",
+        "Node fallback parity 58",
+        "Node fallback parity 59",
+        "Node fallback parity 60",
+        "Node fallback parity 61",
+        "Node fallback parity 62",
+        "Node fallback parity 63",
+        "Node fallback parity 64",
+        "Node fallback parity 65",
+        "Node fallback parity 66",
+        "Node fallback parity 67",
+        "Node fallback parity 68",
+        "Node fallback parity 69",
+        "Node fallback parity 70",
+        "Node fallback parity 71",
+        "Node fallback parity 72",
+        "Node fallback parity 73",
+        "Node fallback parity 74",
+        "Node fallback parity 75",
+        "Node fallback parity 76",
+        "Node fallback parity 77",
+        "Provider response format and trimming",
+        "Provider endpoint and method",
+        "Server-only bearer authorization",
+        "Configured model preserved",
+        "Original system prompt preserved exactly",
+        "User history forwarded after system prompt",
+        "Original generation settings",
+        "Provider timeout options",
+        "Redirect and TLS protection",
+        "Fallback for provider status 401",
+        "Fallback for provider status 402",
+        "Fallback for provider status 403",
+        "Fallback for provider status 404",
+        "Fallback for provider status 500",
+        "Fallback for provider status 502",
+        "Fallback for provider status 503",
+        "Fallback for provider status 302",
+        "Fallback for provider status 418",
+        "Safe provider error 400",
+        "Safe provider error 422",
+        "Safe provider error 413",
+        "Safe provider error 429",
+        "Empty provider reply 0",
+        "Empty provider reply 1",
+        "Empty provider reply 2",
+        "Empty provider reply 3",
+        "Malformed provider JSON preserves Node fallback",
+        "Missing/placeholder credential fallback",
+        "Missing/placeholder credential fallback",
+        "Connection failure mapping local",
+        "Connection failure mapping TIMEOUT",
+        "Reject invalid request 0",
+        "Reject invalid request 1",
+        "Reject invalid request 2",
+        "Reject invalid request 3",
+        "Reject invalid request 4",
+        "Reject invalid request 5",
+        "Reject invalid request 6",
+        "Reject invalid request 7",
+        "Reject invalid request 8",
+        "Reject invalid request 9",
+        "Reject invalid request 10",
+        "Reject invalid request 11",
+        "Reject invalid request 12",
+        "10 KB body limit",
+        "Long assistant history remains compatible",
+        "Controller fallback JSON contract",
+        "1000-unit user boundary accepted",
+        "Rate limit attempt 1",
+        "Rate limit attempt 2",
+        "Rate limit attempt 3",
+        "Rate limit attempt 4",
+        "Rate limit attempt 5",
+        "Rate limit attempt 6",
+        "Rate limit attempt 7",
+        "Rate limit attempt 8",
+        "Rate limit attempt 9",
+        "Rate limit attempt 10",
+        "Rate limit attempt 11",
+        "Rate limit attempt 12",
+        "Rate limit attempt 13",
+        "Rate limit attempt 14",
+        "Rate limit attempt 15",
+        "Rate limit attempt 16",
+        "Rate limit attempt 17",
+        "Rate limit attempt 18",
+        "Rate limit attempt 19",
+        "Rate limit attempt 20",
+        "Rate limit attempt 21",
+        "Compatible rate-limit JSON and retry header",
+        "Timeout fixture is loopback only",
+        "Real HTTP timeout deadline",
+        "No credential or raw exception logging"
+      ]
+    },
+    "publicPages": [
+      {
+        "url": "/",
+        "status": 200
+      },
+      {
+        "url": "/index.html",
+        "status": 200
+      },
+      {
+        "url": "/about.html",
+        "status": 200
+      },
+      {
+        "url": "/dietplans.html",
+        "status": 200
+      },
+      {
+        "url": "/workouts.html",
+        "status": 200
+      },
+      {
+        "url": "/BMI.html",
+        "status": 200
+      },
+      {
+        "url": "/fusion-ai.html",
+        "status": 200
+      },
+      {
+        "url": "/contact.html",
+        "status": 200
+      }
+    ],
+    "laravelLive": {
+      "response": {
+        "url": "http://127.0.0.1:8000/api/chat",
+        "status": 200,
+        "source": null,
+        "replyLength": 286,
+        "code": null
+      },
+      "userMessages": 1,
+      "aiMessages": 1,
+      "offline": false,
+      "error": null
+    },
+    "nodeLive": {
+      "response": {
+        "url": "http://127.0.0.1:3000/api/chat",
+        "status": 200,
+        "source": null,
+        "replyLength": 252,
+        "code": null
+      },
+      "offline": false,
+      "error": null
+    },
+    "chatLayouts": [
+      {
+        "width": 320,
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "panelWidth": 280,
+        "inputInside": true,
+        "messageInputOverlap": false
+      },
+      {
+        "width": 375,
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "panelWidth": 335,
+        "inputInside": true,
+        "messageInputOverlap": false
+      },
+      {
+        "width": 390,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "panelWidth": 350,
+        "inputInside": true,
+        "messageInputOverlap": false
+      },
+      {
+        "width": 768,
+        "clientWidth": 760,
+        "scrollWidth": 760,
+        "panelWidth": 696,
+        "inputInside": true,
+        "messageInputOverlap": false
+      },
+      {
+        "width": 992,
+        "clientWidth": 984,
+        "scrollWidth": 984,
+        "panelWidth": 936,
+        "inputInside": true,
+        "messageInputOverlap": false
+      },
+      {
+        "width": 1024,
+        "clientWidth": 1016,
+        "scrollWidth": 1016,
+        "panelWidth": 936,
+        "inputInside": true,
+        "messageInputOverlap": false
+      },
+      {
+        "width": 1440,
+        "clientWidth": 1432,
+        "scrollWidth": 1432,
+        "panelWidth": 960,
+        "inputInside": true,
+        "messageInputOverlap": false
+      },
+      {
+        "width": 1920,
+        "clientWidth": 1912,
+        "scrollWidth": 1912,
+        "panelWidth": 960,
+        "inputInside": true,
+        "messageInputOverlap": false
+      }
+    ],
+    "keyboard": {
+      "shiftEnter": true,
+      "enterToSend": true,
+      "mobileViewport": {
+        "simulated": true,
+        "fitted": true,
+        "restored": true
+      }
+    },
+    "interface": {
+      "loading": true,
+      "clear": true,
+      "longInput": true,
+      "fallback": {
+        "badge": true,
+        "bold": true,
+        "list": true,
+        "htmlEscaped": true
+      },
+      "timeout": {
+        "error": "The request timed out. Please check your connection and try again.",
+        "retry": true,
+        "inputEnabled": true
+      },
+      "retry": true
+    },
+    "validation": {
+      "missingCsrf": {
+        "status": 419,
+        "code": "CSRF_TOKEN_MISMATCH"
+      },
+      "wrongCsrf": {
+        "status": 419,
+        "code": "CSRF_TOKEN_MISMATCH"
+      },
+      "emptyMessages": {
+        "status": 400,
+        "code": "INVALID_REQUEST"
+      },
+      "malformedJson": {
+        "status": 400,
+        "code": "INVALID_REQUEST"
+      }
+    },
+    "browserExceptions": [],
+    "browserConsoleErrors": [],
+    "networkEvents": [
+      {
+        "page": "Laravel",
+        "url": "http://127.0.0.1:8000/api/chat",
+        "status": 419,
+        "expected": true
+      },
+      {
+        "page": "Laravel",
+        "url": "http://127.0.0.1:8000/api/chat",
+        "status": 419,
+        "expected": true
+      },
+      {
+        "page": "Laravel",
+        "url": "http://127.0.0.1:8000/api/chat",
+        "status": 400,
+        "expected": true
+      },
+      {
+        "page": "Laravel",
+        "url": "http://127.0.0.1:8000/api/chat",
+        "status": 400,
+        "expected": true
+      },
+      {
+        "page": "Original Node",
+        "url": "http://127.0.0.1:3000/favicon.ico",
+        "status": 404,
+        "expected": true
+      }
+    ]
+  },
+  "remaining": [
+    "Physical devices and real mobile keyboards were not tested; Chrome emulation was used.",
+    "The existing WhatsApp configuration still uses the original Node /api/config endpoint; Fusion-AI requests themselves use Laravel only.",
+    "Original Node retains its pre-existing missing favicon.",
+    "The existing 10 KB/50-message history limits remain; long conversations may require Clear Chat."
+  ]
+}

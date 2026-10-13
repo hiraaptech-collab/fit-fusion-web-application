@@ -1,0 +1,13 @@
+@extends('layouts.dashboard')
+@section('title','Feedback Management')
+@section('description','Approve, reject or hide Client reviews while preserving their history.')
+@section('head')<link rel="stylesheet" href="{{ asset('assets/reviews.css') }}">@endsection
+@section('content')
+<div class="dash-grid">@foreach(['pending','approved','rejected','hidden'] as $status)<article class="dash-card dash-stat"><p>{{ ucfirst($status) }}</p><strong>{{ $counts[$status]??0 }}</strong></article>@endforeach</div>
+<form method="GET" class="dash-card dash-actions"><label for="feedbackStatus">Filter by status</label><select id="feedbackStatus" name="status"><option value="">All reviews</option>@foreach(['pending','approved','rejected','hidden'] as $status)<option value="{{ $status }}" @selected(request('status')===$status)>{{ ucfirst($status) }}</option>@endforeach</select><button class="dash-button">Filter</button><a class="dash-button secondary" href="{{ route('public.feedback') }}">Public Feedback page</a></form>
+<div class="dash-card"><div class="dash-table-wrap"><table class="dash-table"><thead><tr><th>Client / display name</th><th>Rating / date</th><th>Review</th><th>Status / moderation</th></tr></thead><tbody>
+@forelse($reviews as $review)<tr><td>{{ $review->client?->name??'Former Client' }}<small>Public: {{ $review->display_name }}</small></td><td>{{ $review->rating }} / 5<small>{{ \App\Support\GymClock::display($review->created_at,'d M Y H:i') }}</small></td><td><p class="review-message">{{ $review->message }}</p></td><td><span class="review-status {{ $review->status }}">{{ ucfirst($review->status) }}</span>
+<form method="POST" action="{{ route('gym.reviews.update',$review) }}" class="review-moderation" data-confirm="Change this review's publication status? The original review will remain in history.">@csrf @method('PUT')<label class="visually-hidden" for="moderate-{{ $review->id }}">Change review status</label><select id="moderate-{{ $review->id }}" name="status" required>@foreach(['approved'=>'Approve','rejected'=>'Reject','hidden'=>'Hide'] as $value=>$label)<option value="{{ $value }}" @selected($review->status===$value)>{{ $label }}</option>@endforeach</select><button class="dash-button" type="submit">Save status</button></form>@if($review->reviewed_at)<small>Last moderated {{ \App\Support\GymClock::display($review->reviewed_at,'d M Y H:i') }}</small>@endif</td></tr>
+@empty<tr><td colspan="4" class="dash-empty">No feedback matches this filter.</td></tr>@endforelse
+</tbody></table></div><div class="dash-pagination">{{ $reviews->links('pagination::bootstrap-5') }}</div></div>
+@endsection

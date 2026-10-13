@@ -1,0 +1,11 @@
+@extends('layouts.dashboard')
+@section('title','Fitness progress')
+@section('description','Record your measurements and follow your own progress.')
+@section('content')
+<div class="dash-card"><h2>Weight over time</h2><canvas class="dash-chart" data-metric="weight" data-chart="{{ json_encode($entries->getCollection()->reverse()->map(fn($e)=>['month'=>$e->recorded_on->format('d M'),'weight'=>(float)$e->weight_kg])->values()) }}" role="img" aria-label="Personal weight history"></canvas></div>
+<div class="dash-card"><h2>Record / update a day</h2><form method="POST" action="{{ route('client.progress.store') }}" class="dash-form">@csrf
+@include('gym.partials.field',['name'=>'recorded_on','label'=>'Recorded on','type'=>'date','value'=>\App\Support\GymClock::today()->toDateString(),'required'=>true])
+@foreach(['weight_kg'=>'Weight (kg)','height_cm'=>'Height (cm)','body_fat_percent'=>'Body fat % (optional)','waist_cm'=>'Waist (cm, optional)'] as $field=>$label)@include('gym.partials.field',['name'=>$field,'label'=>$label,'type'=>'number','step'=>'0.01','required'=>in_array($field,['weight_kg','height_cm'])])@endforeach
+@include('gym.partials.field',['name'=>'notes','label'=>'Notes','type'=>'textarea'])<label class="dash-check full"><input type="checkbox" name="consent" value="1" required> I consent to storing these fitness measurements in my personal portal.</label><div class="full"><button class="dash-button">Save progress</button></div></form></div>
+<div class="dash-card"><div class="dash-table-wrap"><table class="dash-table"><thead><tr><th>Date</th><th>Weight</th><th>Height</th><th>BMI</th><th>Notes</th><th>Actions</th></tr></thead><tbody>@forelse($entries as $entry)<tr><td>{{ $entry->recorded_on->format('d M Y') }}</td><td>{{ $entry->weight_kg }} kg</td><td>{{ $entry->height_cm }} cm</td><td>{{ $entry->bmi }}</td><td>{{ $entry->notes }}</td><td><form method="POST" action="{{ route('client.progress.delete',$entry) }}" data-confirm="Remove this personal progress entry?">@csrf @method('DELETE')<button class="dash-button danger">Remove</button></form></td></tr>@empty<tr><td colspan="6" class="dash-empty">Record your first measurement above.</td></tr>@endforelse</tbody></table></div><div class="dash-pagination">{{ $entries->links() }}</div></div>
+@endsection

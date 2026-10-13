@@ -1,0 +1,14 @@
+@extends('layouts.dashboard')
+@section('title','Messages & inquiries')
+@section('description','Stay connected and follow up on gym requests.')
+@section('content')
+<div class="dash-card"><h2>Send message</h2><form method="POST" action="{{ route('gym.message.store') }}" class="dash-form">@csrf
+@include('gym.partials.field',['name'=>'recipient_id','label'=>$management?'Client':'Gym Owner','type'=>'select','options'=>$recipients->pluck('name','id'),'required'=>true])
+@include('gym.partials.field',['name'=>'subject','label'=>'Subject'])
+@include('gym.partials.field',['name'=>'body','label'=>'Message','type'=>'textarea','required'=>true])<div class="full"><button class="dash-button">Send message</button></div></form></div>
+<div class="dash-card"><h2>Messages</h2>@forelse($messages as $message)<article class="dash-message"><h3>{{ $message->subject ?? 'Gym message' }}</h3><small>From {{ $message->sender?->name }} to {{ $message->recipient?->name }} · {{ \App\Support\GymClock::display($message->created_at,'d M Y H:i') }}</small><p>{{ $message->body }}</p>@if(!$message->read_at && ($management || $message->recipient_id===auth()->id()))<form method="POST" action="{{ route('gym.message.read',$message) }}">@csrf @method('PUT')<button class="dash-button secondary">Mark read</button></form>@endif</article>@empty<p class="dash-empty">No messages yet.</p>@endforelse<div class="dash-pagination">{{ $messages->links() }}</div></div>
+<div class="dash-card"><h2>{{ $management?'Contact inquiries & newsletter subscriptions':'My contact inquiries' }}</h2><form class="dash-search"><select name="status" aria-label="Inquiry status"><option value="">All statuses</option>@foreach(['new','in_progress','resolved'] as $state)<option @selected(request('status')===$state)>{{ $state }}</option>@endforeach</select><button class="dash-button secondary">Filter</button></form>@forelse($inquiries as $inquiry)<article class="dash-message"><h3>{{ $inquiry->subject }}</h3><small>{{ $inquiry->name }} · {{ $inquiry->email }} · {{ $inquiry->status }} · {{ $inquiry->kind }}</small><p>{{ $inquiry->message }}</p>@if($inquiry->reply)<h4 class="fs-6">Gym reply</h4><p>{{ $inquiry->reply }}</p>@endif
+@if($management)<details><summary>Respond / update status</summary><form method="POST" action="{{ route('gym.inquiry.reply',$inquiry) }}" class="dash-form">@csrf @method('PUT')
+@include('gym.partials.field',['name'=>'status','label'=>'Status','type'=>'select','value'=>$inquiry->status,'options'=>['new'=>'New','in_progress'=>'In progress','resolved'=>'Resolved'],'required'=>true])
+@include('gym.partials.field',['name'=>'reply','label'=>'Reply (optional)','type'=>'textarea','value'=>$inquiry->reply])<div class="full"><button class="dash-button">Save response</button></div></form></details>@endif</article>@empty<p class="dash-empty">No inquiries yet.</p>@endforelse<div class="dash-pagination">{{ $inquiries->links() }}</div></div>
+@endsection

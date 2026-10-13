@@ -1,0 +1,38 @@
+{
+  "brandName": "FitFusion",
+  "tagline": "Your premium AI-powered fitness, nutrition, and wellness partner. Transform your life with expert diet plans, workout guides, AI coaching, and health tools.",
+  "quickLinksTitle": "Quick Links",
+  "quickLinks": [
+    { "name": "Home", "url": "index.html" },
+    { "name": "Diet Plans", "url": "dietplans.html" },
+    { "name": "Workouts", "url": "workouts.html" },
+    { "name": "BMI Calculator", "url": "BMI.html" },
+    { "name": "Fusion-AI", "url": "fusion-ai.html" },
+    { "name": "About Us", "url": "about.html" },
+    { "name": "Contact", "url": "contact.html" }
+  ],
+  "servicesTitle": "Our Services",
+  "services": [
+    { "name": "AI Fitness Coach", "url": "fusion-ai.html" },
+    { "name": "Diet & Nutrition", "url": "dietplans.html" },
+    { "name": "Workout Programs", "url": "workouts.html" },
+    { "name": "BMI Analysis", "url": "BMI.html" },
+    { "name": "Weight Loss Plans", "url": "dietplans.html" }
+  ],
+  "contactTitle": "Contact Us",
+  "contactInfo": [
+    { "icon": "bi bi-geo-alt-fill", "text": "Pakistan Homes Society, Block 9-A, Gulistan-e-Johar, Karachi, Pakistan" },
+    { "icon": "bi bi-telephone-fill", "text": "+92 310 3701543" },
+    { "icon": "bi bi-envelope-fill", "text": "hiraaptech@gmail.com" },
+    { "icon": "bi bi-clock-fill", "text": "Mon - Sat: 6:00 AM - 10:00 PM" }
+  ],
+  "socialIcons": [
+    { "name": "Facebook", "url": "https://facebook.com", "icon": "bi bi-facebook" },
+    { "name": "Instagram", "url": "https://instagram.com", "icon": "bi bi-instagram" },
+    { "name": "LinkedIn", "url": "https://linkedin.com", "icon": "bi bi-linkedin" },
+    { "name": "GitHub", "url": "https://github.com", "icon": "bi bi-github" },
+    { "name": "YouTube", "url": "https://youtube.com", "icon": "bi bi-youtube" }
+  ],
+  "newsletterText": "Subscribe for weekly fitness tips, AI workout insights, and exclusive offers.",
+  "copyrightText": "© 2026 FitFusion | Developed by <span>SYEDA HIRA</span>"
+}

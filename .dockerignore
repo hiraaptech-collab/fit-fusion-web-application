@@ -1,0 +1,19 @@
+# Never send secrets, local data, or development dependencies to Render's build context.
+.git
+.gitignore
+**/.env
+**/.env.*
+!**/.env.example
+**/storage/app/private/
+**/storage/framework/cache/
+**/storage/framework/sessions/
+**/storage/framework/views/
+**/storage/logs/
+**/*.sql
+**/*.sqlite
+**/*.sqlite3
+**/vendor/
+**/node_modules/
+**/.phpunit.result.cache
+**/tests/
+node_modules/

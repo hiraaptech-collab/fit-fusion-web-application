@@ -1,0 +1,2387 @@
+{
+  "http": [
+    {
+      "url": "/",
+      "status": 200
+    },
+    {
+      "url": "/index.html",
+      "status": 200
+    },
+    {
+      "url": "/about.html",
+      "status": 200
+    },
+    {
+      "url": "/dietplans.html",
+      "status": 200
+    },
+    {
+      "url": "/workouts.html",
+      "status": 200
+    },
+    {
+      "url": "/BMI.html",
+      "status": 200
+    },
+    {
+      "url": "/fusion-ai.html",
+      "status": 200
+    },
+    {
+      "url": "/contact.html",
+      "status": 200
+    }
+  ],
+  "markup": [
+    {
+      "url": "/",
+      "preserved": true
+    },
+    {
+      "url": "/index.html",
+      "preserved": true
+    },
+    {
+      "url": "/about.html",
+      "preserved": true
+    },
+    {
+      "url": "/dietplans.html",
+      "preserved": true
+    },
+    {
+      "url": "/workouts.html",
+      "preserved": true
+    },
+    {
+      "url": "/BMI.html",
+      "preserved": true
+    },
+    {
+      "url": "/fusion-ai.html",
+      "preserved": true
+    },
+    {
+      "url": "/contact.html",
+      "preserved": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets\\images\\provided\\04b7b236c0e1cf9e766800647aee1dd3.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\05e83f496517b0d1d53f1112db5417bd.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\228899d7da34d9a56e66c1920d8a7704.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\2495587d63d043853b6b136a922488b3.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\2bf3a7df3395fd09caa676744a2baa7c.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\41931ce3b2ea6a63cd47055a241416b9.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\4d9c030bbcda67e18af815445d92b587.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\53bec99c9fa73c41dbf54eb8f4949626.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\55f06fd76e846c38adbbc29465845162.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\6a5baef276cccb727b6f48bf71ef6073.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\6b8e872fd555099e08f8d5b9afe5c542.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\6c441b204b910f482b8f5662f2233631.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\752b0cc5135c061c928b5db3717d6dc2.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\7a03a71b568d3fa95b7636153951d785.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\8433d93487ca721ae14c0027e2d8d92d.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\8d3189009ab4596dbc450686c36a6ba0.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\8e83dabe710f32747cc52428980d12d8.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\90a62bff2f1a14d789515d3c893f5199.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\ae02c845582cf40793765410bc4fe251.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\bcca4dd9fed02cdf2c1e08e0d40bf3bb.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\be92af977c7eee142b5c70300f54fd25.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\cd779d1dee93f33456ec73787f36a885.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\d0fb12c38caa1ed5b5027f0f6267df64.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\d5c0f0f69b06f97a4e23b0ee3e9a1378.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\d70df8bfa4fa600035bd4ac68bc7cc6e.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\d87916e9c473ff3d30c1e64ff1db95ac.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\ddf02738061833089496cbfde224f276.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\dfdaf4a7376e90d79c1944d89ffe3609.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\download.png",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\e1cec204d0c9322c163f0e0b47de1a52.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\e8fd6e95a34024c790e52499e2195b9c.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\f299c8afa185261e47a50859958473ae.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\images\\provided\\f42f2244a6ef1428c6ee83e125c8b858.jpg",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "assets\\style.css",
+      "status": 200,
+      "unchanged": false,
+      "servedCorrectly": true
+    },
+    {
+      "file": "javascript\\bmi.js",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "javascript\\contact.js",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "javascript\\diet.js",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "javascript\\fusion-ai.js",
+      "status": 200,
+      "unchanged": false,
+      "servedCorrectly": true
+    },
+    {
+      "file": "javascript\\script.js",
+      "status": 200,
+      "unchanged": false,
+      "servedCorrectly": true
+    },
+    {
+      "file": "javascript\\workouts.js",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "data\\diet-plans.json",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "data\\footer.json",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "data\\navbar.json",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "data\\workouts.json",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "robots.txt",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    },
+    {
+      "file": "sitemap.xml",
+      "status": 200,
+      "unchanged": true,
+      "servedCorrectly": true
+    }
+  ],
+  "originalNode": [
+    {
+      "page": "index.html",
+      "status": 200,
+      "unchanged": true
+    },
+    {
+      "page": "about.html",
+      "status": 200,
+      "unchanged": true
+    },
+    {
+      "page": "dietplans.html",
+      "status": 200,
+      "unchanged": true
+    },
+    {
+      "page": "workouts.html",
+      "status": 200,
+      "unchanged": true
+    },
+    {
+      "page": "BMI.html",
+      "status": 200,
+      "unchanged": true
+    },
+    {
+      "page": "fusion-ai.html",
+      "status": 200,
+      "unchanged": true
+    },
+    {
+      "page": "contact.html",
+      "status": 200,
+      "unchanged": true
+    }
+  ],
+  "layouts": [
+    {
+      "page": "index.html",
+      "width": 320,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "index.html",
+      "width": 375,
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "index.html",
+      "width": 768,
+      "scrollWidth": 760,
+      "clientWidth": 760,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "index.html",
+      "width": 992,
+      "scrollWidth": 984,
+      "clientWidth": 984,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "index.html",
+      "width": 1024,
+      "scrollWidth": 1016,
+      "clientWidth": 1016,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "index.html",
+      "width": 1440,
+      "scrollWidth": 1432,
+      "clientWidth": 1432,
+      "overflow": false,
+      "outside": [],
+      "navbar": "none"
+    },
+    {
+      "page": "index.html",
+      "width": 1920,
+      "scrollWidth": 1912,
+      "clientWidth": 1912,
+      "overflow": false,
+      "outside": [],
+      "navbar": "none"
+    },
+    {
+      "page": "about.html",
+      "width": 320,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "about.html",
+      "width": 375,
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "about.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "about.html",
+      "width": 768,
+      "scrollWidth": 760,
+      "clientWidth": 760,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "about.html",
+      "width": 992,
+      "scrollWidth": 984,
+      "clientWidth": 984,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "about.html",
+      "width": 1024,
+      "scrollWidth": 1016,
+      "clientWidth": 1016,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "about.html",
+      "width": 1440,
+      "scrollWidth": 1432,
+      "clientWidth": 1432,
+      "overflow": false,
+      "outside": [],
+      "navbar": "none"
+    },
+    {
+      "page": "about.html",
+      "width": 1920,
+      "scrollWidth": 1912,
+      "clientWidth": 1912,
+      "overflow": false,
+      "outside": [],
+      "navbar": "none"
+    },
+    {
+      "page": "dietplans.html",
+      "width": 320,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "dietplans.html",
+      "width": 375,
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "dietplans.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "dietplans.html",
+      "width": 768,
+      "scrollWidth": 760,
+      "clientWidth": 760,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "dietplans.html",
+      "width": 992,
+      "scrollWidth": 984,
+      "clientWidth": 984,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "dietplans.html",
+      "width": 1024,
+      "scrollWidth": 1016,
+      "clientWidth": 1016,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "dietplans.html",
+      "width": 1440,
+      "scrollWidth": 1432,
+      "clientWidth": 1432,
+      "overflow": false,
+      "outside": [],
+      "navbar": "none"
+    },
+    {
+      "page": "dietplans.html",
+      "width": 1920,
+      "scrollWidth": 1912,
+      "clientWidth": 1912,
+      "overflow": false,
+      "outside": [],
+      "navbar": "none"
+    },
+    {
+      "page": "workouts.html",
+      "width": 320,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "workouts.html",
+      "width": 375,
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "workouts.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "workouts.html",
+      "width": 768,
+      "scrollWidth": 760,
+      "clientWidth": 760,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "workouts.html",
+      "width": 992,
+      "scrollWidth": 984,
+      "clientWidth": 984,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "workouts.html",
+      "width": 1024,
+      "scrollWidth": 1016,
+      "clientWidth": 1016,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "workouts.html",
+      "width": 1440,
+      "scrollWidth": 1432,
+      "clientWidth": 1432,
+      "overflow": false,
+      "outside": [],
+      "navbar": "none"
+    },
+    {
+      "page": "workouts.html",
+      "width": 1920,
+      "scrollWidth": 1912,
+      "clientWidth": 1912,
+      "overflow": false,
+      "outside": [],
+      "navbar": "none"
+    },
+    {
+      "page": "BMI.html",
+      "width": 320,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "BMI.html",
+      "width": 375,
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "BMI.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "BMI.html",
+      "width": 768,
+      "scrollWidth": 760,
+      "clientWidth": 760,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "BMI.html",
+      "width": 992,
+      "scrollWidth": 984,
+      "clientWidth": 984,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "BMI.html",
+      "width": 1024,
+      "scrollWidth": 1016,
+      "clientWidth": 1016,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "BMI.html",
+      "width": 1440,
+      "scrollWidth": 1432,
+      "clientWidth": 1432,
+      "overflow": false,
+      "outside": [],
+      "navbar": "none"
+    },
+    {
+      "page": "BMI.html",
+      "width": 1920,
+      "scrollWidth": 1912,
+      "clientWidth": 1912,
+      "overflow": false,
+      "outside": [],
+      "navbar": "none"
+    },
+    {
+      "page": "fusion-ai.html",
+      "width": 320,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "fusion-ai.html",
+      "width": 375,
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "fusion-ai.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "fusion-ai.html",
+      "width": 768,
+      "scrollWidth": 760,
+      "clientWidth": 760,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "fusion-ai.html",
+      "width": 992,
+      "scrollWidth": 984,
+      "clientWidth": 984,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "fusion-ai.html",
+      "width": 1024,
+      "scrollWidth": 1016,
+      "clientWidth": 1016,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "fusion-ai.html",
+      "width": 1440,
+      "scrollWidth": 1432,
+      "clientWidth": 1432,
+      "overflow": false,
+      "outside": [],
+      "navbar": "none"
+    },
+    {
+      "page": "fusion-ai.html",
+      "width": 1920,
+      "scrollWidth": 1912,
+      "clientWidth": 1912,
+      "overflow": false,
+      "outside": [],
+      "navbar": "none"
+    },
+    {
+      "page": "contact.html",
+      "width": 320,
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "contact.html",
+      "width": 375,
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "contact.html",
+      "width": 390,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "contact.html",
+      "width": 768,
+      "scrollWidth": 760,
+      "clientWidth": 760,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "contact.html",
+      "width": 992,
+      "scrollWidth": 984,
+      "clientWidth": 984,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "contact.html",
+      "width": 1024,
+      "scrollWidth": 1016,
+      "clientWidth": 1016,
+      "overflow": false,
+      "outside": [],
+      "navbar": "block"
+    },
+    {
+      "page": "contact.html",
+      "width": 1440,
+      "scrollWidth": 1432,
+      "clientWidth": 1432,
+      "overflow": false,
+      "outside": [],
+      "navbar": "none"
+    },
+    {
+      "page": "contact.html",
+      "width": 1920,
+      "scrollWidth": 1912,
+      "clientWidth": 1912,
+      "overflow": false,
+      "outside": [],
+      "navbar": "none"
+    }
+  ],
+  "images": [
+    {
+      "page": "index.html",
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=900&q=80",
+          "loaded": true,
+          "naturalWidth": 900,
+          "local": false
+        },
+        {
+          "src": "assets/images/provided/228899d7da34d9a56e66c1920d8a7704.jpg",
+          "loaded": true,
+          "naturalWidth": 1080,
+          "local": true
+        },
+        {
+          "src": "assets/images/provided/05e83f496517b0d1d53f1112db5417bd.jpg",
+          "loaded": true,
+          "naturalWidth": 736,
+          "local": true
+        },
+        {
+          "src": "assets/images/provided/04b7b236c0e1cf9e766800647aee1dd3.jpg",
+          "loaded": true,
+          "naturalWidth": 736,
+          "local": true
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=900&q=80",
+          "loaded": true,
+          "naturalWidth": 900,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=900&q=80",
+          "loaded": true,
+          "naturalWidth": 900,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=900&q=80",
+          "loaded": true,
+          "naturalWidth": 900,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80",
+          "loaded": true,
+          "naturalWidth": 600,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80",
+          "loaded": true,
+          "naturalWidth": 600,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&q=80",
+          "loaded": true,
+          "naturalWidth": 600,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80",
+          "loaded": true,
+          "naturalWidth": 100,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&q=80",
+          "loaded": true,
+          "naturalWidth": 100,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&q=80",
+          "loaded": true,
+          "naturalWidth": 100,
+          "local": false
+        }
+      ]
+    },
+    {
+      "page": "about.html",
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=900&q=80",
+          "loaded": true,
+          "naturalWidth": 900,
+          "local": false
+        },
+        {
+          "src": "assets/images/provided/2bf3a7df3395fd09caa676744a2baa7c.jpg",
+          "loaded": true,
+          "naturalWidth": 736,
+          "local": true
+        },
+        {
+          "src": "assets/images/provided/ae02c845582cf40793765410bc4fe251.jpg",
+          "loaded": true,
+          "naturalWidth": 735,
+          "local": true
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=900&q=80",
+          "loaded": true,
+          "naturalWidth": 900,
+          "local": false
+        }
+      ]
+    },
+    {
+      "page": "dietplans.html",
+      "images": [
+        {
+          "src": "assets/images/provided/2495587d63d043853b6b136a922488b3.jpg",
+          "loaded": true,
+          "naturalWidth": 643,
+          "local": true
+        },
+        {
+          "src": "assets/images/provided/d87916e9c473ff3d30c1e64ff1db95ac.jpg",
+          "loaded": true,
+          "naturalWidth": 736,
+          "local": true
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80",
+          "loaded": true,
+          "naturalWidth": 600,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80",
+          "loaded": true,
+          "naturalWidth": 600,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600&q=80",
+          "loaded": true,
+          "naturalWidth": 600,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&q=80",
+          "loaded": true,
+          "naturalWidth": 600,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&q=80",
+          "loaded": true,
+          "naturalWidth": 600,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&q=80",
+          "loaded": true,
+          "naturalWidth": 600,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600&q=80",
+          "loaded": true,
+          "naturalWidth": 600,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=600&q=80",
+          "loaded": true,
+          "naturalWidth": 600,
+          "local": false
+        }
+      ]
+    },
+    {
+      "page": "workouts.html",
+      "images": [
+        {
+          "src": "assets/images/provided/8433d93487ca721ae14c0027e2d8d92d.jpg",
+          "loaded": true,
+          "naturalWidth": 736,
+          "local": true
+        },
+        {
+          "src": "assets/images/provided/90a62bff2f1a14d789515d3c893f5199.jpg",
+          "loaded": true,
+          "naturalWidth": 736,
+          "local": true
+        },
+        {
+          "src": "assets/images/provided/d5c0f0f69b06f97a4e23b0ee3e9a1378.jpg",
+          "loaded": true,
+          "naturalWidth": 474,
+          "local": true
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1580086319619-3ed498161c77?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1550345332-09e3ac987658?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1548690312-e3b507d8c110?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1521805103424-d8f8430e8933?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1550345332-09e3ac987658?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1576678927484-cc907957088c?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1580086319619-3ed498161c77?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=400&q=80",
+          "loaded": true,
+          "naturalWidth": 400,
+          "local": false
+        }
+      ]
+    },
+    {
+      "page": "BMI.html",
+      "images": []
+    },
+    {
+      "page": "fusion-ai.html",
+      "images": []
+    },
+    {
+      "page": "contact.html",
+      "images": []
+    }
+  ],
+  "features": {
+    "index.html": {
+      "navbar": true,
+      "activeLink": "index.html",
+      "footer": true,
+      "newsletterBound": true,
+      "aos": true,
+      "bootstrap": true,
+      "apiAddress": "http://localhost:3000",
+      "mobile": {
+        "opened": true,
+        "focusWrap": true,
+        "closed": true,
+        "scrollable": true
+      },
+      "whatsappConfigured": true,
+      "backToTopVisible": true,
+      "backToTopWorks": true
+    },
+    "counters": [
+      {
+        "text": "10,000+",
+        "target": "10000",
+        "suffix": "+"
+      },
+      {
+        "text": "95%",
+        "target": "95",
+        "suffix": "%"
+      },
+      {
+        "text": "25+",
+        "target": "25",
+        "suffix": "+"
+      },
+      {
+        "text": "100+",
+        "target": "100",
+        "suffix": "+"
+      }
+    ],
+    "faq": true,
+    "newsletterReset": true,
+    "about.html": {
+      "navbar": true,
+      "activeLink": "about.html",
+      "footer": true,
+      "newsletterBound": true,
+      "aos": true,
+      "bootstrap": true,
+      "apiAddress": "http://localhost:3000",
+      "mobile": {
+        "opened": true,
+        "focusWrap": true,
+        "closed": true,
+        "scrollable": true
+      },
+      "whatsappConfigured": true,
+      "backToTopVisible": true,
+      "backToTopWorks": true
+    },
+    "dietplans.html": {
+      "navbar": true,
+      "activeLink": "dietplans.html",
+      "footer": true,
+      "newsletterBound": true,
+      "aos": true,
+      "bootstrap": true,
+      "apiAddress": "http://localhost:3000",
+      "mobile": {
+        "opened": true,
+        "focusWrap": true,
+        "closed": true,
+        "scrollable": true
+      },
+      "whatsappConfigured": true,
+      "backToTopVisible": true,
+      "backToTopWorks": true
+    },
+    "diets": {
+      "cards": 8,
+      "meals": 32
+    },
+    "workouts.html": {
+      "navbar": true,
+      "activeLink": "workouts.html",
+      "footer": true,
+      "newsletterBound": true,
+      "aos": true,
+      "bootstrap": true,
+      "apiAddress": "http://localhost:3000",
+      "mobile": {
+        "opened": true,
+        "focusWrap": true,
+        "closed": true,
+        "scrollable": true
+      },
+      "whatsappConfigured": true,
+      "backToTopVisible": true,
+      "backToTopWorks": true
+    },
+    "workouts": {
+      "cards": 57,
+      "filters": [
+        {
+          "target": "all",
+          "visible": 7,
+          "correct": true
+        },
+        {
+          "target": "beginner",
+          "visible": 1,
+          "correct": true
+        },
+        {
+          "target": "intermediate",
+          "visible": 1,
+          "correct": true
+        },
+        {
+          "target": "advanced",
+          "visible": 1,
+          "correct": true
+        },
+        {
+          "target": "strength",
+          "visible": 1,
+          "correct": true
+        },
+        {
+          "target": "cardio",
+          "visible": 1,
+          "correct": true
+        },
+        {
+          "target": "arms-shoulders",
+          "visible": 1,
+          "correct": true
+        },
+        {
+          "target": "yoga-stretching",
+          "visible": 1,
+          "correct": true
+        }
+      ]
+    },
+    "BMI.html": {
+      "navbar": true,
+      "activeLink": "BMI.html",
+      "footer": true,
+      "newsletterBound": true,
+      "aos": true,
+      "bootstrap": true,
+      "apiAddress": "http://localhost:3000",
+      "mobile": {
+        "opened": true,
+        "focusWrap": true,
+        "closed": true,
+        "scrollable": true
+      },
+      "whatsappConfigured": true,
+      "backToTopVisible": true,
+      "backToTopWorks": true
+    },
+    "bmi": {
+      "missing": true,
+      "result": {
+        "value": "23.1",
+        "category": "Normal Weight",
+        "placeholderHidden": true
+      },
+      "reset": true,
+      "rangeValidation": true
+    },
+    "fusion-ai.html": {
+      "navbar": true,
+      "activeLink": "fusion-ai.html",
+      "footer": true,
+      "newsletterBound": true,
+      "aos": true,
+      "bootstrap": true,
+      "apiAddress": "http://localhost:3000",
+      "mobile": {
+        "opened": true,
+        "focusWrap": true,
+        "closed": true,
+        "scrollable": true
+      },
+      "whatsappConfigured": true,
+      "backToTopVisible": true,
+      "backToTopWorks": true
+    },
+    "chatValidation": {
+      "emptyDisabled": true,
+      "tooLong": true,
+      "cleared": true
+    },
+    "liveChat": {
+      "responses": [
+        {
+          "url": "http://localhost:3000/api/chat",
+          "status": 200,
+          "source": "ai",
+          "replyLength": 364,
+          "code": null
+        }
+      ],
+      "userMessages": 1,
+      "aiMessages": 1,
+      "offlineBadge": false,
+      "error": null,
+      "inputEnabled": true
+    },
+    "chatKeyboard": {
+      "simulated": true,
+      "fitted": true,
+      "restored": true
+    },
+    "contact.html": {
+      "navbar": true,
+      "activeLink": "contact.html",
+      "footer": true,
+      "newsletterBound": true,
+      "aos": true,
+      "bootstrap": true,
+      "apiAddress": "http://localhost:3000",
+      "mobile": {
+        "opened": true,
+        "focusWrap": true,
+        "closed": true,
+        "scrollable": true
+      },
+      "whatsappConfigured": true,
+      "backToTopVisible": true,
+      "backToTopWorks": true
+    },
+    "contact": {
+      "invalid": 5,
+      "successVisible": true,
+      "reset": true
+    },
+    "mobileLinkNavigation": true,
+    "navLinkNavigation": true,
+    "internalLinksResolve": true,
+    "backToTopSettled": [
+      {
+        "page": "index.html",
+        "before": {
+          "y": 13237,
+          "visualY": 174,
+          "scale": 1
+        },
+        "trace": [
+          {
+            "y": 8149,
+            "visualY": 174,
+            "scale": 1
+          },
+          {
+            "y": 261,
+            "visualY": 0,
+            "scale": 1
+          },
+          {
+            "y": 0,
+            "visualY": 0,
+            "scale": 1
+          }
+        ],
+        "passed": true
+      },
+      {
+        "page": "about.html",
+        "before": {
+          "y": 6974,
+          "visualY": 174,
+          "scale": 1
+        },
+        "trace": [
+          {
+            "y": 3770,
+            "visualY": 174,
+            "scale": 1
+          },
+          {
+            "y": 59,
+            "visualY": 0,
+            "scale": 1
+          },
+          {
+            "y": 0,
+            "visualY": 0,
+            "scale": 1
+          }
+        ],
+        "passed": true
+      },
+      {
+        "page": "dietplans.html",
+        "before": {
+          "y": 14634,
+          "visualY": 0,
+          "scale": 1
+        },
+        "trace": [
+          {
+            "y": 9701,
+            "visualY": 0,
+            "scale": 1
+          },
+          {
+            "y": 288,
+            "visualY": 0,
+            "scale": 1
+          },
+          {
+            "y": 0,
+            "visualY": 0,
+            "scale": 1
+          }
+        ],
+        "passed": true
+      },
+      {
+        "page": "workouts.html",
+        "before": {
+          "y": 27212,
+          "visualY": 0,
+          "scale": 1
+        },
+        "trace": [
+          {
+            "y": 18040,
+            "visualY": 0,
+            "scale": 1
+          },
+          {
+            "y": 536,
+            "visualY": 0,
+            "scale": 1
+          },
+          {
+            "y": 0,
+            "visualY": 0,
+            "scale": 1
+          }
+        ],
+        "passed": true
+      },
+      {
+        "page": "BMI.html",
+        "before": {
+          "y": 4271,
+          "visualY": 174,
+          "scale": 1
+        },
+        "trace": [
+          {
+            "y": 1594,
+            "visualY": 174,
+            "scale": 1
+          },
+          {
+            "y": 0,
+            "visualY": 174,
+            "scale": 1
+          }
+        ],
+        "passed": true
+      },
+      {
+        "page": "fusion-ai.html",
+        "before": {
+          "y": 1947,
+          "visualY": 0,
+          "scale": 1
+        },
+        "trace": [
+          {
+            "y": 239,
+            "visualY": 0,
+            "scale": 1
+          },
+          {
+            "y": 0,
+            "visualY": 0,
+            "scale": 1
+          }
+        ],
+        "passed": true
+      },
+      {
+        "page": "contact.html",
+        "before": {
+          "y": 2895,
+          "visualY": 174,
+          "scale": 1
+        },
+        "trace": [
+          {
+            "y": 730,
+            "visualY": 174,
+            "scale": 1
+          },
+          {
+            "y": 0,
+            "visualY": 174,
+            "scale": 1
+          }
+        ],
+        "passed": true
+      }
+    ],
+    "phoneViewportBeforeMenu": {
+      "width": 390,
+      "offset": 0,
+      "scale": 1
+    },
+    "mobileResizeClose": true,
+    "phoneViewport320": {
+      "width": 320,
+      "offset": 0,
+      "scale": 1
+    },
+    "phoneViewport375": {
+      "width": 375,
+      "offset": 0,
+      "scale": 1
+    },
+    "phoneViewport390": {
+      "width": 390,
+      "offset": 0,
+      "scale": 1
+    },
+    "visualReviewComplete": true,
+    "mobileTouch": [
+      {
+        "page": "index.html",
+        "width": 320,
+        "metrics": {
+          "x": 282,
+          "y": 34,
+          "left": 260,
+          "right": 304,
+          "viewport": 320
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "index.html",
+        "width": 375,
+        "metrics": {
+          "x": 337,
+          "y": 34,
+          "left": 315,
+          "right": 359,
+          "viewport": 375
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "index.html",
+        "width": 390,
+        "metrics": {
+          "x": 352,
+          "y": 34,
+          "left": 330,
+          "right": 374,
+          "viewport": 390
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      }
+    ],
+    "phoneMenuTouch": [
+      {
+        "page": "index.html",
+        "width": 320,
+        "metrics": {
+          "x": 282,
+          "y": 34,
+          "left": 260,
+          "right": 304,
+          "viewport": 320
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "index.html",
+        "width": 375,
+        "metrics": {
+          "x": 337,
+          "y": 34,
+          "left": 315,
+          "right": 359,
+          "viewport": 375
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "index.html",
+        "width": 390,
+        "metrics": {
+          "x": 352,
+          "y": 34,
+          "left": 330,
+          "right": 374,
+          "viewport": 390
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "about.html",
+        "width": 320,
+        "metrics": {
+          "x": 282,
+          "y": 34,
+          "left": 260,
+          "right": 304,
+          "viewport": 320
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "about.html",
+        "width": 375,
+        "metrics": {
+          "x": 337,
+          "y": 34,
+          "left": 315,
+          "right": 359,
+          "viewport": 375
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "about.html",
+        "width": 390,
+        "metrics": {
+          "x": 352,
+          "y": 34,
+          "left": 330,
+          "right": 374,
+          "viewport": 390
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "dietplans.html",
+        "width": 320,
+        "metrics": {
+          "x": 282,
+          "y": 34,
+          "left": 260,
+          "right": 304,
+          "viewport": 320
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "dietplans.html",
+        "width": 375,
+        "metrics": {
+          "x": 337,
+          "y": 34,
+          "left": 315,
+          "right": 359,
+          "viewport": 375
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "dietplans.html",
+        "width": 390,
+        "metrics": {
+          "x": 352,
+          "y": 34,
+          "left": 330,
+          "right": 374,
+          "viewport": 390
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "workouts.html",
+        "width": 320,
+        "metrics": {
+          "x": 282,
+          "y": 34,
+          "left": 260,
+          "right": 304,
+          "viewport": 320
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "workouts.html",
+        "width": 375,
+        "metrics": {
+          "x": 336.921875,
+          "y": 34,
+          "left": 314.921875,
+          "right": 358.921875,
+          "viewport": 375
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "workouts.html",
+        "width": 390,
+        "metrics": {
+          "x": 352,
+          "y": 34,
+          "left": 330,
+          "right": 374,
+          "viewport": 390
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "BMI.html",
+        "width": 320,
+        "metrics": {
+          "x": 282,
+          "y": 34,
+          "left": 260,
+          "right": 304,
+          "viewport": 320
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "BMI.html",
+        "width": 375,
+        "metrics": {
+          "x": 336.921875,
+          "y": 34,
+          "left": 314.921875,
+          "right": 358.921875,
+          "viewport": 375
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "BMI.html",
+        "width": 390,
+        "metrics": {
+          "x": 352,
+          "y": 34,
+          "left": 330,
+          "right": 374,
+          "viewport": 390
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "fusion-ai.html",
+        "width": 320,
+        "metrics": {
+          "x": 282,
+          "y": 34,
+          "left": 260,
+          "right": 304,
+          "viewport": 320
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "fusion-ai.html",
+        "width": 375,
+        "metrics": {
+          "x": 337,
+          "y": 34,
+          "left": 315,
+          "right": 359,
+          "viewport": 375
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "fusion-ai.html",
+        "width": 390,
+        "metrics": {
+          "x": 352,
+          "y": 34,
+          "left": 330,
+          "right": 374,
+          "viewport": 390
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "contact.html",
+        "width": 320,
+        "metrics": {
+          "x": 282,
+          "y": 34,
+          "left": 260,
+          "right": 304,
+          "viewport": 320
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "contact.html",
+        "width": 375,
+        "metrics": {
+          "x": 337,
+          "y": 34,
+          "left": 315,
+          "right": 359,
+          "viewport": 375
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      },
+      {
+        "page": "contact.html",
+        "width": 390,
+        "metrics": {
+          "x": 351.96875,
+          "y": 34,
+          "left": 329.96875,
+          "right": 373.96875,
+          "viewport": 390
+        },
+        "opened": true,
+        "closed": true,
+        "inside": true
+      }
+    ],
+    "mobileWidthSafeguard": true
+  },
+  "exceptions": [],
+  "consoleErrors": [],
+  "networkFailures": [
+    {
+      "page": "",
+      "url": "http://127.0.0.1:3000/favicon.ico",
+      "status": 404
+    }
+  ],
+  "screenshots": [
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\home-mobile-390.png",
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\home-desktop-1920.png",
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\chat-mobile-390.png",
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\chat-desktop-1440.png",
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\home-mobile-390.png",
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\home-mobile-320.png",
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\home-mobile-375.png",
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\home-mobile-390.png",
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\diet-mobile-390.png",
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\workouts-desktop-1440.png",
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\home-mobile-320.png",
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\home-mobile-375.png",
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\home-mobile-390.png",
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\home-mobile-390.png",
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\about-mobile-390.png",
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\dietplans-mobile-390.png",
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\workouts-mobile-390.png",
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\BMI-mobile-390.png",
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\fusion-ai-mobile-390.png",
+    "C:\\Users\\pro saqi\\AppData\\Local\\Temp\\fitfusion-phase4-2-qa-20261009-222635\\contact-mobile-390.png"
+  ],
+  "completedAt": "2026-10-09T20:07:12.967Z",
+  "phase": "4.2",
+  "originalPreservation": {
+    "filesChecked": 699,
+    "changedOrMissing": 0,
+    "algorithm": "SHA-256",
+    "backup": "C:/Users/pro saqi/Desktop/fit-fusion-phase4-2-backup-20261009-221504"
+  },
+  "findings": {
+    "navbarWidth": {
+      "description": "Pre-existing Node and copied Laravel markup both expanded the fixed navbar beyond the mobile viewport during AOS transitions. The Laravel stylesheet now caps the navbar and mobile menu at 100vw.",
+      "beforeSafeguard": [
+        {
+          "port": 3000,
+          "metrics": {
+            "inner": 470,
+            "client": 390,
+            "visual": {
+              "width": 390,
+              "offset": 0,
+              "scale": 1
+            },
+            "body": {
+              "left": 0,
+              "right": 390,
+              "width": 390
+            },
+            "nav": {
+              "left": 0,
+              "right": 470,
+              "width": 470
+            },
+            "container": {
+              "left": 0,
+              "right": 470,
+              "width": 470
+            },
+            "toggle": {
+              "left": 410,
+              "right": 454,
+              "width": 44
+            },
+            "screen": 390
+          },
+          "constrained": {
+            "x": 352,
+            "y": 34,
+            "left": 330,
+            "right": 374
+          },
+          "opened": true,
+          "closed": true
+        },
+        {
+          "port": 8000,
+          "metrics": {
+            "inner": 470,
+            "client": 390,
+            "visual": {
+              "width": 390,
+              "offset": 0,
+              "scale": 1
+            },
+            "body": {
+              "left": 0,
+              "right": 390,
+              "width": 390
+            },
+            "nav": {
+              "left": 0,
+              "right": 470,
+              "width": 470
+            },
+            "container": {
+              "left": 0,
+              "right": 470,
+              "width": 470
+            },
+            "toggle": {
+              "left": 410,
+              "right": 454,
+              "width": 44
+            },
+            "screen": 390
+          },
+          "constrained": {
+            "x": 352,
+            "y": 34,
+            "left": 330,
+            "right": 374
+          },
+          "opened": true,
+          "closed": true
+        }
+      ]
+    },
+    "bladeMetadata": "Existing JSON-LD is enclosed in @verbatim so Blade does not interpret @context as a directive."
+  },
+  "summary": {
+    "laravelRoutes": 8,
+    "responsiveLayouts": 56,
+    "mobileTouchChecks": 21,
+    "renderedImages": 87,
+    "renderedLocalImages": 10,
+    "copiedAssetFiles": 46,
+    "intentionallyAdjustedCopies": [
+      "assets\\style.css",
+      "javascript\\fusion-ai.js",
+      "javascript\\script.js"
+    ],
+    "liveAIResponse": {
+      "url": "http://localhost:3000/api/chat",
+      "status": 200,
+      "source": "ai",
+      "replyLength": 364,
+      "code": null
+    },
+    "laravelNetworkErrors": [],
+    "originalNodeNetworkIssues": [
+      {
+        "page": "",
+        "url": "http://127.0.0.1:3000/favicon.ico",
+        "status": 404
+      }
+    ]
+  },
+  "limitations": [
+    "Physical devices and real mobile keyboards were not tested; responsive, touch and keyboard behavior was emulated in headless Chrome.",
+    "The original Node website retains its existing fixed-navbar mobile width quirk and missing /favicon.ico. Original files were deliberately not edited.",
+    "Contact and newsletter forms retain their existing browser-only behavior; no submission storage or delivery was added.",
+    "Production deployment and any AI API migration require separate Phase 4.3 approval."
+  ]
+}

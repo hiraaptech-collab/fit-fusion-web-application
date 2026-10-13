@@ -1,0 +1,20 @@
+{
+  "logoImage": "",
+  "brandName": "Fit<span>Fusion</span>",
+  "navLinks": [
+    { "name": "Home", "url": "index.html", "icon": "bi bi-house-fill" },
+    { "name": "Diet Plans", "url": "dietplans.html", "icon": "bi bi-egg-fried" },
+    { "name": "Workouts", "url": "workouts.html", "icon": "bi bi-dumbbell-fill" },
+    { "name": "BMI Calculator", "url": "BMI.html", "icon": "bi bi-calculator-fill" },
+    { "name": "Fusion-AI", "url": "fusion-ai.html", "icon": "bi bi-robot" },
+    { "name": "About", "url": "about.html", "icon": "bi bi-info-circle-fill" },
+    { "name": "Feedback", "url": "feedback", "icon": "bi bi-chat-square-heart" },
+    { "name": "Contact", "url": "contact.html", "icon": "bi bi-envelope-fill" }
+  ],
+  "ctaButton": {
+    "text": "Get Started",
+    "url": "BMI.html",
+    "icon": "bi bi-arrow-right-circle-fill"
+  }
+}
+

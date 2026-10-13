@@ -1,0 +1,26 @@
+/* These rules apply to the new authentication pages only. */
+.auth-shell { min-height: 78vh; display: grid; place-items: center; padding: clamp(125px, 15vh, 170px) 20px 70px; }
+.auth-card { width: 100%; max-width: 550px; min-width: 0; padding: clamp(24px, 4vw, 44px); background: var(--bg-card); border: 1px solid var(--border-gold); border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); }
+.auth-brand { display: inline-flex; gap: 10px; align-items: center; color: var(--primary-dark); font-weight: 800; font-size: 1.1rem; text-decoration: none; margin-bottom: 18px; }
+.auth-card h1 { color: var(--brown-dark); font-size: clamp(1.7rem, 4vw, 2.3rem); font-weight: 800; line-height: 1.2; margin-bottom: 12px; overflow-wrap: anywhere; }
+.auth-description, .auth-links, .auth-help, .auth-account { color: var(--ink-soft); }
+.auth-description { margin-bottom: 25px; }
+.auth-form { display: flex; flex-direction: column; gap: 10px; }
+.auth-form > label { color: var(--brown-dark); font-weight: 600; margin-top: 5px; }
+.auth-form input:not([type="checkbox"]):not([type="hidden"]) { width: 100%; min-width: 0; padding: 12px 14px; font: inherit; font-size: 16px; color: var(--ink); background: var(--bg-white); border: 1px solid var(--border-strong); border-radius: var(--radius-sm); transition: var(--transition-fast); }
+.auth-form input:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.auth-form button { justify-content: center; margin-top: 14px; min-height: 48px; width: 100%; white-space: normal; }
+.auth-options { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; margin-top: 5px; font-size: .9rem; }
+.auth-checkbox { display: inline-flex; gap: 8px; align-items: center; color: var(--ink-soft); cursor: pointer; }
+.auth-checkbox input { width: 17px; height: 17px; accent-color: var(--primary-dark); }
+.auth-card a { overflow-wrap: anywhere; }
+.auth-options a, .auth-links a, .auth-feature-links a { color: var(--primary-dark); font-weight: 600; }
+.auth-links { margin: 24px 0 0; text-align: center; }
+.auth-help { font-size: .85rem; line-height: 1.5; margin: 0 0 6px; }
+.auth-status, .auth-errors { padding: 13px 16px; background: var(--primary-soft); border: 1px solid var(--border-gold); border-radius: var(--radius-sm); color: var(--ink-soft); margin-bottom: 20px; overflow-wrap: anywhere; }
+.auth-errors ul { margin: 0; padding-left: 18px; }
+.auth-account dd { overflow-wrap: anywhere; margin-bottom: 14px; }
+.auth-account dt { color: var(--brown-dark); }
+.auth-feature-links { display: flex; flex-wrap: wrap; gap: 12px 22px; margin: 24px 0; }
+@media (max-width: 375px) { .auth-shell { padding-left: 12px; padding-right: 12px; } .auth-card { padding: 23px 18px; } .auth-options { font-size: .85rem; } }
+@media (prefers-reduced-motion: reduce) { .auth-form input { transition: none; } }

@@ -1,0 +1,317 @@
+{
+  "systemPrompt": "You are Fusion-AI, a premium AI fitness assistant created by FitFusion. You are an expert in fitness, gym workouts, exercise, bodybuilding, weight training, cardio, BMI, body composition, general nutrition, healthy lifestyle, fitness routines, workout planning, recovery, stretching, gym equipment, exercise techniques, and general fitness education.\n\nIMPORTANT RULES:\n1. ONLY answer questions related to fitness, health, gym, workouts, nutrition, bodybuilding, exercise, BMI, body composition, recovery, stretching, and healthy lifestyle.\n2. If the user asks about something unrelated to fitness/health, politely redirect them: \"I'm Fusion-AI, your dedicated fitness assistant. I can help you with workouts, nutrition, BMI, exercise techniques, and wellness topics. How can I assist you with your fitness journey today?\"\n3. Do NOT diagnose diseases, prescribe medication, or pretend to be a doctor.\n4. For serious medical conditions, injuries, or emergencies, always recommend: \"For serious health concerns, please consult a qualified healthcare professional.\"\n5. Be encouraging, motivational, and professional.\n6. You can respond in any language the user writes in (English, Urdu, Roman Urdu, Hindi, Arabic, etc.).\n7. Keep responses helpful and concise. Use formatting for readability.\n8. Include the disclaimer when giving health/nutrition advice: \"This is general wellness information and not a substitute for professional medical advice.\"",
+  "fallbackCases": [
+    {
+      "prompt": "hello",
+      "reply": "Hello! I'm Fusion-AI, your fitness assistant. I can help you with workouts, nutrition, BMI, exercise tips, and more. What would you like to know?"
+    },
+    {
+      "prompt": "HELLO there",
+      "reply": "Hello! I'm Fusion-AI, your fitness assistant. I can help you with workouts, nutrition, BMI, exercise tips, and more. What would you like to know?"
+    },
+    {
+      "prompt": "hey",
+      "reply": "Hello! I'm Fusion-AI, your fitness assistant. I can help you with workouts, nutrition, BMI, exercise tips, and more. What would you like to know?"
+    },
+    {
+      "prompt": "salam",
+      "reply": "Hello! I'm Fusion-AI, your fitness assistant. I can help you with workouts, nutrition, BMI, exercise tips, and more. What would you like to know?"
+    },
+    {
+      "prompt": "assalam",
+      "reply": "Hello! I'm Fusion-AI, your fitness assistant. I can help you with workouts, nutrition, BMI, exercise tips, and more. What would you like to know?"
+    },
+    {
+      "prompt": "howdy",
+      "reply": "Hello! I'm Fusion-AI, your fitness assistant. I can help you with workouts, nutrition, BMI, exercise tips, and more. What would you like to know?"
+    },
+    {
+      "prompt": "sup",
+      "reply": "Hello! I'm Fusion-AI, your fitness assistant. I can help you with workouts, nutrition, BMI, exercise tips, and more. What would you like to know?"
+    },
+    {
+      "prompt": "yo",
+      "reply": "Hello! I'm Fusion-AI, your fitness assistant. I can help you with workouts, nutrition, BMI, exercise tips, and more. What would you like to know?"
+    },
+    {
+      "prompt": "bye",
+      "reply": "You're welcome! Stay consistent with your fitness goals. Feel free to come back anytime you need help. 💪"
+    },
+    {
+      "prompt": "goodbye",
+      "reply": "You're welcome! Stay consistent with your fitness goals. Feel free to come back anytime you need help. 💪"
+    },
+    {
+      "prompt": "thanks",
+      "reply": "You're welcome! Stay consistent with your fitness goals. Feel free to come back anytime you need help. 💪"
+    },
+    {
+      "prompt": "thank you",
+      "reply": "You're welcome! Stay consistent with your fitness goals. Feel free to come back anytime you need help. 💪"
+    },
+    {
+      "prompt": "ok",
+      "reply": "You're welcome! Stay consistent with your fitness goals. Feel free to come back anytime you need help. 💪"
+    },
+    {
+      "prompt": "okay",
+      "reply": "You're welcome! Stay consistent with your fitness goals. Feel free to come back anytime you need help. 💪"
+    },
+    {
+      "prompt": "hi?",
+      "reply": "Hello! I'm Fusion-AI, your fitness assistant. I can help you with workouts, nutrition, BMI, exercise tips, and more. What would you like to know?"
+    },
+    {
+      "prompt": "chest and protein",
+      "reply": "For chest, try these:\n\n• **Barbell Bench Press** — 4x8\n• **Incline Dumbbell Press** — 3x10\n• **Cable Flyes** — 3x12\n• **Push-ups** — 3x to failure\n\nRest 60–90 seconds between sets. Keep your shoulder blades retracted and feet flat on the floor."
+    },
+    {
+      "prompt": "protein and diet",
+      "reply": "**Top protein sources:**\n\n• Chicken breast — 31g per 100g\n• Eggs — 6g per egg\n• Greek yogurt — 10g per 100g\n• Lentils — 9g per 100g cooked\n• Tuna — 26g per 100g\n• Paneer — 18g per 100g\n• Whey protein — 24g per scoop\n\nAim for 1.6–2.2g of protein per kg of body weight for muscle building."
+    },
+    {
+      "prompt": "not a fitness question",
+      "reply": "I'm Fusion-AI, your fitness assistant. I can help with workouts, nutrition, BMI, exercise techniques, and wellness topics. For the best experience, please try again when the AI service is available. In the meantime, feel free to ask about specific workouts, diet plans, or fitness tips!"
+    },
+    {
+      "prompt": "?????",
+      "reply": "I'm Fusion-AI, your fitness assistant. I can help with workouts, nutrition, BMI, exercise techniques, and wellness topics. For the best experience, please try again when the AI service is available. In the meantime, feel free to ask about specific workouts, diet plans, or fitness tips!"
+    },
+    {
+      "prompt": "????",
+      "reply": "I'm Fusion-AI, your fitness assistant. I can help with workouts, nutrition, BMI, exercise techniques, and wellness topics. For the best experience, please try again when the AI service is available. In the meantime, feel free to ask about specific workouts, diet plans, or fitness tips!"
+    },
+    {
+      "prompt": "hello\nworld",
+      "reply": "Hello! I'm Fusion-AI, your fitness assistant. I can help you with workouts, nutrition, BMI, exercise tips, and more. What would you like to know?"
+    },
+    {
+      "prompt": "chest",
+      "reply": "For chest, try these:\n\n• **Barbell Bench Press** — 4x8\n• **Incline Dumbbell Press** — 3x10\n• **Cable Flyes** — 3x12\n• **Push-ups** — 3x to failure\n\nRest 60–90 seconds between sets. Keep your shoulder blades retracted and feet flat on the floor."
+    },
+    {
+      "prompt": "pec",
+      "reply": "For chest, try these:\n\n• **Barbell Bench Press** — 4x8\n• **Incline Dumbbell Press** — 3x10\n• **Cable Flyes** — 3x12\n• **Push-ups** — 3x to failure\n\nRest 60–90 seconds between sets. Keep your shoulder blades retracted and feet flat on the floor."
+    },
+    {
+      "prompt": "back",
+      "reply": "For back development:\n\n• **Deadlifts** — 4x6\n• **Pull-ups / Lat Pulldown** — 4x8\n• **Barbell Rows** — 3x10\n• **Seated Cable Row** — 3x12\n\nFocus on squeezing your shoulder blades together at the top of each rep."
+    },
+    {
+      "prompt": "lat",
+      "reply": "For back development:\n\n• **Deadlifts** — 4x6\n• **Pull-ups / Lat Pulldown** — 4x8\n• **Barbell Rows** — 3x10\n• **Seated Cable Row** — 3x12\n\nFocus on squeezing your shoulder blades together at the top of each rep."
+    },
+    {
+      "prompt": "pull",
+      "reply": "For back development:\n\n• **Deadlifts** — 4x6\n• **Pull-ups / Lat Pulldown** — 4x8\n• **Barbell Rows** — 3x10\n• **Seated Cable Row** — 3x12\n\nFocus on squeezing your shoulder blades together at the top of each rep."
+    },
+    {
+      "prompt": "leg",
+      "reply": "For legs:\n\n• **Barbell Squat** — 4x8\n• **Romanian Deadlift** — 3x10\n• **Leg Press** — 3x12\n• **Walking Lunges** — 3x12 each\n• **Calf Raises** — 4x15\n\nLeg day is crucial for overall strength and growth hormone production. Don't skip it!"
+    },
+    {
+      "prompt": "squat",
+      "reply": "For legs:\n\n• **Barbell Squat** — 4x8\n• **Romanian Deadlift** — 3x10\n• **Leg Press** — 3x12\n• **Walking Lunges** — 3x12 each\n• **Calf Raises** — 4x15\n\nLeg day is crucial for overall strength and growth hormone production. Don't skip it!"
+    },
+    {
+      "prompt": "thigh",
+      "reply": "For legs:\n\n• **Barbell Squat** — 4x8\n• **Romanian Deadlift** — 3x10\n• **Leg Press** — 3x12\n• **Walking Lunges** — 3x12 each\n• **Calf Raises** — 4x15\n\nLeg day is crucial for overall strength and growth hormone production. Don't skip it!"
+    },
+    {
+      "prompt": "quad",
+      "reply": "For legs:\n\n• **Barbell Squat** — 4x8\n• **Romanian Deadlift** — 3x10\n• **Leg Press** — 3x12\n• **Walking Lunges** — 3x12 each\n• **Calf Raises** — 4x15\n\nLeg day is crucial for overall strength and growth hormone production. Don't skip it!"
+    },
+    {
+      "prompt": "hamstring",
+      "reply": "For legs:\n\n• **Barbell Squat** — 4x8\n• **Romanian Deadlift** — 3x10\n• **Leg Press** — 3x12\n• **Walking Lunges** — 3x12 each\n• **Calf Raises** — 4x15\n\nLeg day is crucial for overall strength and growth hormone production. Don't skip it!"
+    },
+    {
+      "prompt": "shoulder",
+      "reply": "For shoulders:\n\n• **Overhead Press** — 4x8\n• **Lateral Raises** — 3x12\n• **Face Pulls** — 3x15\n• **Rear Delt Flyes** — 3x12\n\nStrong shoulders protect your joints and improve your physique."
+    },
+    {
+      "prompt": "delt",
+      "reply": "For shoulders:\n\n• **Overhead Press** — 4x8\n• **Lateral Raises** — 3x12\n• **Face Pulls** — 3x15\n• **Rear Delt Flyes** — 3x12\n\nStrong shoulders protect your joints and improve your physique."
+    },
+    {
+      "prompt": "arm",
+      "reply": "For arms:\n\n• **Barbell Curl** — 3x10\n• **Hammer Curls** — 3x12\n• **Tricep Dips** — 3x10\n• **Overhead Tricep Extension** — 3x12\n\nArms respond well to higher reps (12–15) and controlled tempo."
+    },
+    {
+      "prompt": "bicep",
+      "reply": "For arms:\n\n• **Barbell Curl** — 3x10\n• **Hammer Curls** — 3x12\n• **Tricep Dips** — 3x10\n• **Overhead Tricep Extension** — 3x12\n\nArms respond well to higher reps (12–15) and controlled tempo."
+    },
+    {
+      "prompt": "tricep",
+      "reply": "For arms:\n\n• **Barbell Curl** — 3x10\n• **Hammer Curls** — 3x12\n• **Tricep Dips** — 3x10\n• **Overhead Tricep Extension** — 3x12\n\nArms respond well to higher reps (12–15) and controlled tempo."
+    },
+    {
+      "prompt": "abs",
+      "reply": "For core strength:\n\n• **Plank** — 3x 45–60 sec\n• **Hanging Leg Raises** — 3x12\n• **Cable Crunches** — 3x15\n• **Dead Bugs** — 3x10 each side\n\nA strong core improves posture, reduces injury risk, and boosts performance in all lifts."
+    },
+    {
+      "prompt": "core",
+      "reply": "For core strength:\n\n• **Plank** — 3x 45–60 sec\n• **Hanging Leg Raises** — 3x12\n• **Cable Crunches** — 3x15\n• **Dead Bugs** — 3x10 each side\n\nA strong core improves posture, reduces injury risk, and boosts performance in all lifts."
+    },
+    {
+      "prompt": "stomach",
+      "reply": "For core strength:\n\n• **Plank** — 3x 45–60 sec\n• **Hanging Leg Raises** — 3x12\n• **Cable Crunches** — 3x15\n• **Dead Bugs** — 3x10 each side\n\nA strong core improves posture, reduces injury risk, and boosts performance in all lifts."
+    },
+    {
+      "prompt": "belly",
+      "reply": "For core strength:\n\n• **Plank** — 3x 45–60 sec\n• **Hanging Leg Raises** — 3x12\n• **Cable Crunches** — 3x15\n• **Dead Bugs** — 3x10 each side\n\nA strong core improves posture, reduces injury risk, and boosts performance in all lifts."
+    },
+    {
+      "prompt": "full body",
+      "reply": "Full-body workout (3 days/week):\n\n**Day A:** Squat 4x5, Bench Press 4x5, Barbell Row 4x5\n**Day B:** Deadlift 3x5, Overhead Press 3x5, Pull-ups 3x max\n\nAlternate A/B with rest days between. This is a classic strength program."
+    },
+    {
+      "prompt": "full-body",
+      "reply": "Full-body workout (3 days/week):\n\n**Day A:** Squat 4x5, Bench Press 4x5, Barbell Row 4x5\n**Day B:** Deadlift 3x5, Overhead Press 3x5, Pull-ups 3x max\n\nAlternate A/B with rest days between. This is a classic strength program."
+    },
+    {
+      "prompt": "fullbody",
+      "reply": "Full-body workout (3 days/week):\n\n**Day A:** Squat 4x5, Bench Press 4x5, Barbell Row 4x5\n**Day B:** Deadlift 3x5, Overhead Press 3x5, Pull-ups 3x max\n\nAlternate A/B with rest days between. This is a classic strength program."
+    },
+    {
+      "prompt": "protein",
+      "reply": "**Top protein sources:**\n\n• Chicken breast — 31g per 100g\n• Eggs — 6g per egg\n• Greek yogurt — 10g per 100g\n• Lentils — 9g per 100g cooked\n• Tuna — 26g per 100g\n• Paneer — 18g per 100g\n• Whey protein — 24g per scoop\n\nAim for 1.6–2.2g of protein per kg of body weight for muscle building."
+    },
+    {
+      "prompt": "eat for protein",
+      "reply": "**Top protein sources:**\n\n• Chicken breast — 31g per 100g\n• Eggs — 6g per egg\n• Greek yogurt — 10g per 100g\n• Lentils — 9g per 100g cooked\n• Tuna — 26g per 100g\n• Paneer — 18g per 100g\n• Whey protein — 24g per scoop\n\nAim for 1.6–2.2g of protein per kg of body weight for muscle building."
+    },
+    {
+      "prompt": "diet",
+      "reply": "**Balanced diet principles:**\n\n• Protein: 25–30% of calories (chicken, fish, eggs, legumes)\n• Carbs: 40–50% (rice, oats, sweet potato, fruits)\n• Fats: 20–30% (nuts, olive oil, avocado)\n\nEat whole foods, stay hydrated (3–4L water/day), and meal prep to stay consistent."
+    },
+    {
+      "prompt": "meal",
+      "reply": "**Balanced diet principles:**\n\n• Protein: 25–30% of calories (chicken, fish, eggs, legumes)\n• Carbs: 40–50% (rice, oats, sweet potato, fruits)\n• Fats: 20–30% (nuts, olive oil, avocado)\n\nEat whole foods, stay hydrated (3–4L water/day), and meal prep to stay consistent."
+    },
+    {
+      "prompt": "food",
+      "reply": "**Balanced diet principles:**\n\n• Protein: 25–30% of calories (chicken, fish, eggs, legumes)\n• Carbs: 40–50% (rice, oats, sweet potato, fruits)\n• Fats: 20–30% (nuts, olive oil, avocado)\n\nEat whole foods, stay hydrated (3–4L water/day), and meal prep to stay consistent."
+    },
+    {
+      "prompt": "eat",
+      "reply": "**Balanced diet principles:**\n\n• Protein: 25–30% of calories (chicken, fish, eggs, legumes)\n• Carbs: 40–50% (rice, oats, sweet potato, fruits)\n• Fats: 20–30% (nuts, olive oil, avocado)\n\nEat whole foods, stay hydrated (3–4L water/day), and meal prep to stay consistent."
+    },
+    {
+      "prompt": "weight loss",
+      "reply": "**Sustainable fat loss approach:**\n\n1. Caloric deficit: eat 300–500 calories below maintenance\n2. Protein high: 2g per kg to preserve muscle\n3. Strength train 3–4x/week\n4. Walk 8,000–10,000 steps daily\n5. Sleep 7–8 hours\n\nAvoid crash diets. Aim to lose 0.5–1% of body weight per week."
+    },
+    {
+      "prompt": "fat loss",
+      "reply": "**Sustainable fat loss approach:**\n\n1. Caloric deficit: eat 300–500 calories below maintenance\n2. Protein high: 2g per kg to preserve muscle\n3. Strength train 3–4x/week\n4. Walk 8,000–10,000 steps daily\n5. Sleep 7–8 hours\n\nAvoid crash diets. Aim to lose 0.5–1% of body weight per week."
+    },
+    {
+      "prompt": "lose weight",
+      "reply": "**Sustainable fat loss approach:**\n\n1. Caloric deficit: eat 300–500 calories below maintenance\n2. Protein high: 2g per kg to preserve muscle\n3. Strength train 3–4x/week\n4. Walk 8,000–10,000 steps daily\n5. Sleep 7–8 hours\n\nAvoid crash diets. Aim to lose 0.5–1% of body weight per week."
+    },
+    {
+      "prompt": "burn fat",
+      "reply": "**Sustainable fat loss approach:**\n\n1. Caloric deficit: eat 300–500 calories below maintenance\n2. Protein high: 2g per kg to preserve muscle\n3. Strength train 3–4x/week\n4. Walk 8,000–10,000 steps daily\n5. Sleep 7–8 hours\n\nAvoid crash diets. Aim to lose 0.5–1% of body weight per week."
+    },
+    {
+      "prompt": "weight gain",
+      "reply": "**Clean muscle gain:**\n\n1. Caloric surplus: eat 300–500 calories above maintenance\n2. Protein: 1.8–2.2g per kg body weight\n3. Progressive overload in the gym\n4. Sleep 7–9 hours (growth hormone peaks during deep sleep)\n5. Be patient — aim for 0.25–0.5 kg per week\n\nThis is general wellness information and not a substitute for professional medical advice."
+    },
+    {
+      "prompt": "bulk",
+      "reply": "**Clean muscle gain:**\n\n1. Caloric surplus: eat 300–500 calories above maintenance\n2. Protein: 1.8–2.2g per kg body weight\n3. Progressive overload in the gym\n4. Sleep 7–9 hours (growth hormone peaks during deep sleep)\n5. Be patient — aim for 0.25–0.5 kg per week\n\nThis is general wellness information and not a substitute for professional medical advice."
+    },
+    {
+      "prompt": "gain weight",
+      "reply": "**Clean muscle gain:**\n\n1. Caloric surplus: eat 300–500 calories above maintenance\n2. Protein: 1.8–2.2g per kg body weight\n3. Progressive overload in the gym\n4. Sleep 7–9 hours (growth hormone peaks during deep sleep)\n5. Be patient — aim for 0.25–0.5 kg per week\n\nThis is general wellness information and not a substitute for professional medical advice."
+    },
+    {
+      "prompt": "muscle gain",
+      "reply": "**Clean muscle gain:**\n\n1. Caloric surplus: eat 300–500 calories above maintenance\n2. Protein: 1.8–2.2g per kg body weight\n3. Progressive overload in the gym\n4. Sleep 7–9 hours (growth hormone peaks during deep sleep)\n5. Be patient — aim for 0.25–0.5 kg per week\n\nThis is general wellness information and not a substitute for professional medical advice."
+    },
+    {
+      "prompt": "supplement",
+      "reply": "**Evidence-based supplements:**\n\n• **Creatine monohydrate** — 5g/day, improves strength & muscle\n• **Whey protein** — convenient protein source\n• **Vitamin D** — if deficient (common in South Asia)\n• **Fish oil** — anti-inflammatory, heart health\n• **Caffeine** — 3–6mg/kg pre-workout for performance\n\nMost supplements are optional. Food first, supplements second."
+    },
+    {
+      "prompt": "creatine",
+      "reply": "**Balanced diet principles:**\n\n• Protein: 25–30% of calories (chicken, fish, eggs, legumes)\n• Carbs: 40–50% (rice, oats, sweet potato, fruits)\n• Fats: 20–30% (nuts, olive oil, avocado)\n\nEat whole foods, stay hydrated (3–4L water/day), and meal prep to stay consistent."
+    },
+    {
+      "prompt": "whey",
+      "reply": "**Evidence-based supplements:**\n\n• **Creatine monohydrate** — 5g/day, improves strength & muscle\n• **Whey protein** — convenient protein source\n• **Vitamin D** — if deficient (common in South Asia)\n• **Fish oil** — anti-inflammatory, heart health\n• **Caffeine** — 3–6mg/kg pre-workout for performance\n\nMost supplements are optional. Food first, supplements second."
+    },
+    {
+      "prompt": "pre-workout",
+      "reply": "**Evidence-based supplements:**\n\n• **Creatine monohydrate** — 5g/day, improves strength & muscle\n• **Whey protein** — convenient protein source\n• **Vitamin D** — if deficient (common in South Asia)\n• **Fish oil** — anti-inflammatory, heart health\n• **Caffeine** — 3–6mg/kg pre-workout for performance\n\nMost supplements are optional. Food first, supplements second."
+    },
+    {
+      "prompt": "bmi",
+      "reply": "**BMI Categories:**\n\n• Underweight: below 18.5\n• Normal: 18.5 – 24.9\n• Overweight: 25 – 29.9\n• Obese: 30+\n\n**How to calculate:** BMI = weight(kg) / height(m)²\n\nNote: BMI doesn't account for muscle mass. A muscular person may have a high BMI but low body fat. Use it as a starting point, not a final diagnosis."
+    },
+    {
+      "prompt": "body mass index",
+      "reply": "**BMI Categories:**\n\n• Underweight: below 18.5\n• Normal: 18.5 – 24.9\n• Overweight: 25 – 29.9\n• Obese: 30+\n\n**How to calculate:** BMI = weight(kg) / height(m)²\n\nNote: BMI doesn't account for muscle mass. A muscular person may have a high BMI but low body fat. Use it as a starting point, not a final diagnosis."
+    },
+    {
+      "prompt": "cardio",
+      "reply": "**Cardio recommendations:**\n\n• **Beginners:** 3x/week, 20–30 min brisk walking or light jog\n• **Intermediate:** 3x/week, 20 min HIIT (intervals of 30s sprint / 60s walk)\n• **Advanced:** 4x/week mixing steady-state and HIIT\n\nCardio improves heart health, endurance, and recovery. Balance it with strength training."
+    },
+    {
+      "prompt": "running",
+      "reply": "**Cardio recommendations:**\n\n• **Beginners:** 3x/week, 20–30 min brisk walking or light jog\n• **Intermediate:** 3x/week, 20 min HIIT (intervals of 30s sprint / 60s walk)\n• **Advanced:** 4x/week mixing steady-state and HIIT\n\nCardio improves heart health, endurance, and recovery. Balance it with strength training."
+    },
+    {
+      "prompt": "jog",
+      "reply": "**Cardio recommendations:**\n\n• **Beginners:** 3x/week, 20–30 min brisk walking or light jog\n• **Intermediate:** 3x/week, 20 min HIIT (intervals of 30s sprint / 60s walk)\n• **Advanced:** 4x/week mixing steady-state and HIIT\n\nCardio improves heart health, endurance, and recovery. Balance it with strength training."
+    },
+    {
+      "prompt": "walk",
+      "reply": "**Cardio recommendations:**\n\n• **Beginners:** 3x/week, 20–30 min brisk walking or light jog\n• **Intermediate:** 3x/week, 20 min HIIT (intervals of 30s sprint / 60s walk)\n• **Advanced:** 4x/week mixing steady-state and HIIT\n\nCardio improves heart health, endurance, and recovery. Balance it with strength training."
+    },
+    {
+      "prompt": "hiit",
+      "reply": "**Cardio recommendations:**\n\n• **Beginners:** 3x/week, 20–30 min brisk walking or light jog\n• **Intermediate:** 3x/week, 20 min HIIT (intervals of 30s sprint / 60s walk)\n• **Advanced:** 4x/week mixing steady-state and HIIT\n\nCardio improves heart health, endurance, and recovery. Balance it with strength training."
+    },
+    {
+      "prompt": "rest",
+      "reply": "**Recovery essentials:**\n\n• Sleep 7–9 hours (most muscle repair happens during sleep)\n• Stretch 10 min post-workout\n• Take 1–2 rest days per week\n• Foam roll tight muscles\n• Stay hydrated\n\nOvertraining leads to injury and burnout. Recovery is where growth happens."
+    },
+    {
+      "prompt": "recovery",
+      "reply": "**Recovery essentials:**\n\n• Sleep 7–9 hours (most muscle repair happens during sleep)\n• Stretch 10 min post-workout\n• Take 1–2 rest days per week\n• Foam roll tight muscles\n• Stay hydrated\n\nOvertraining leads to injury and burnout. Recovery is where growth happens."
+    },
+    {
+      "prompt": "sleep",
+      "reply": "**Recovery essentials:**\n\n• Sleep 7–9 hours (most muscle repair happens during sleep)\n• Stretch 10 min post-workout\n• Take 1–2 rest days per week\n• Foam roll tight muscles\n• Stay hydrated\n\nOvertraining leads to injury and burnout. Recovery is where growth happens."
+    },
+    {
+      "prompt": "stretch",
+      "reply": "**Recovery essentials:**\n\n• Sleep 7–9 hours (most muscle repair happens during sleep)\n• Stretch 10 min post-workout\n• Take 1–2 rest days per week\n• Foam roll tight muscles\n• Stay hydrated\n\nOvertraining leads to injury and burnout. Recovery is where growth happens."
+    },
+    {
+      "prompt": "flexibility",
+      "reply": "**Recovery essentials:**\n\n• Sleep 7–9 hours (most muscle repair happens during sleep)\n• Stretch 10 min post-workout\n• Take 1–2 rest days per week\n• Foam roll tight muscles\n• Stay hydrated\n\nOvertraining leads to injury and burnout. Recovery is where growth happens."
+    },
+    {
+      "prompt": "motivation",
+      "reply": "**Staying consistent:**\n\n1. Set small, achievable goals (e.g., gym 3x this week)\n2. Track your workouts — progress is motivating\n3. Find a workout partner or community\n4. Remember: discipline > motivation\n5. Every workout counts, even a short one\n\nThe hardest part is starting. Once you're in the gym, you've already won."
+    },
+    {
+      "prompt": "consistent",
+      "reply": "**Staying consistent:**\n\n1. Set small, achievable goals (e.g., gym 3x this week)\n2. Track your workouts — progress is motivating\n3. Find a workout partner or community\n4. Remember: discipline > motivation\n5. Every workout counts, even a short one\n\nThe hardest part is starting. Once you're in the gym, you've already won."
+    },
+    {
+      "prompt": "stuck",
+      "reply": "**Staying consistent:**\n\n1. Set small, achievable goals (e.g., gym 3x this week)\n2. Track your workouts — progress is motivating\n3. Find a workout partner or community\n4. Remember: discipline > motivation\n5. Every workout counts, even a short one\n\nThe hardest part is starting. Once you're in the gym, you've already won."
+    },
+    {
+      "prompt": "give up",
+      "reply": "**Staying consistent:**\n\n1. Set small, achievable goals (e.g., gym 3x this week)\n2. Track your workouts — progress is motivating\n3. Find a workout partner or community\n4. Remember: discipline > motivation\n5. Every workout counts, even a short one\n\nThe hardest part is starting. Once you're in the gym, you've already won."
+    },
+    {
+      "prompt": "hard",
+      "reply": "**Staying consistent:**\n\n1. Set small, achievable goals (e.g., gym 3x this week)\n2. Track your workouts — progress is motivating\n3. Find a workout partner or community\n4. Remember: discipline > motivation\n5. Every workout counts, even a short one\n\nThe hardest part is starting. Once you're in the gym, you've already won."
+    }
+  ]
+}
