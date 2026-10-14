@@ -12,6 +12,7 @@ chown -R www-data:www-data storage bootstrap/cache
 
 # Route caching is intentionally omitted because the application keeps a small
 # closure route for the client profile endpoint.
+php artisan config:clear
 php artisan config:cache
 php artisan view:cache
 
