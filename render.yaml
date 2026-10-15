@@ -31,8 +31,14 @@ services:
         sync: false
       - key: DB_PASSWORD
         sync: false
+      - key: MYSQL_ATTR_SSL_CA
+        value: /etc/ssl/certs/aiven-ca.pem
+      - key: AI_ALLOW_GUEST_PROVIDER
+        value: "true"
+      - key: AI_REQUIRE_PROVIDER
+        value: "true"
       - key: RUN_MIGRATIONS
-        sync: false
+        value: "false"
       - key: SESSION_DRIVER
         value: database
       - key: SESSION_ENCRYPT

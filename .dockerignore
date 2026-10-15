@@ -12,6 +12,7 @@
 **/*.sql
 **/*.sqlite
 **/*.sqlite3
+**/bootstrap/cache/*.php
 **/vendor/
 **/node_modules/
 **/.phpunit.result.cache

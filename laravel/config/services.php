@@ -44,6 +44,7 @@ return [
         'connect_timeout' => 5,
         'requests_per_minute' => 20,
         'allow_guest_provider' => env('AI_ALLOW_GUEST_PROVIDER', false),
+        'require_provider' => env('AI_REQUIRE_PROVIDER', env('APP_ENV') === 'production'),
         'user_requests_per_minute' => (int) env('AI_USER_REQUESTS_PER_MINUTE', 5),
         'user_requests_per_day' => (int) env('AI_USER_REQUESTS_PER_DAY', 60),
         'guest_requests_per_day' => (int) env('AI_GUEST_REQUESTS_PER_DAY', 5),

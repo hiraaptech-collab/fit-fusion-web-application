@@ -15,7 +15,10 @@ class FusionAiService
     public function reply(array $messages): array
     {
         $lastMessage=$messages[array_key_last($messages)]['content'];
-        if(app('request')->attributes->get('fusion_ai_provider_allowed')===false)return $this->localReply($lastMessage);
+        if(app('request')->attributes->get('fusion_ai_provider_allowed')===false){
+            if(config('services.fusion_ai.require_provider'))return $this->error('AI_LOGIN_REQUIRED','Please sign in to use Fusion-AI.',403);
+            return $this->localReply($lastMessage);
+        }
         $key=(string)config('services.fusion_ai.api_key');
         if($key===''||$key==='YOUR_GROQ_API_KEY_HERE')return $this->localReply($lastMessage);
         // Keep saved history intact, but send a bounded recent context to Groq.
@@ -110,6 +113,7 @@ class FusionAiService
 
     private function localReply(string $message): array
     {
+        if(config('services.fusion_ai.require_provider'))return $this->error('AI_UNAVAILABLE','Fusion-AI is temporarily unavailable. Please try again later.',503);
         return ['status' => 200, 'body' => ['reply' => $this->localResponse($message), 'source' => 'local']];
     }
 
